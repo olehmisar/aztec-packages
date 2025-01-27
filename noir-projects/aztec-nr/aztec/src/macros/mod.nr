@@ -74,6 +74,7 @@ comptime fn generate_contract_interface(m: Module) -> Quoted {
     };
 
     quote {
+        #[derive(Eq)]
         pub struct $module_name {
             target_contract: dep::aztec::protocol_types::address::AztecAddress
         }
@@ -92,6 +93,28 @@ comptime fn generate_contract_interface(m: Module) -> Quoted {
             }
 
             $storage_layout_getter
+        }
+
+        impl aztec::protocol_types::traits::Serialize<1> for $module_name {
+            fn serialize(self) -> [Field; 1] {
+                [self.target_contract.to_field()]
+            }
+        }
+
+        impl aztec::protocol_types::traits::Deserialize<1> for $module_name {
+            fn deserialize(fields: [Field; 1]) -> Self {
+                Self::at(aztec::protocol_types::address::AztecAddress::from_field(fields[0]))
+            }
+        }
+
+        impl aztec::protocol_types::traits::Packable<1> for $module_name {
+            fn pack(self) -> [Field; 1] {
+                self.serialize()
+            }
+
+            fn unpack(fields: [Field; 1]) -> Self {
+                Self::deserialize(fields)
+            }
         }
 
         #[contract_library_method]
