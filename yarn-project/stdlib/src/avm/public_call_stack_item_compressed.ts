@@ -3,6 +3,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer, serializeToFields } from '@aztec/foundation/serialize';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { AztecAddress } from '../aztec-address/index.js';
 import { Gas } from '../gas/gas.js';
 import { CallContext } from '../tx/call_context.js';

@@ -81,6 +81,7 @@ import { BenchmarkTelemetryClient } from '@aztec/telemetry-client/bench';
 import { getGenesisValues } from '@aztec/world-state/testing';
 
 import type { Anvil } from '@viem/anvil';
+import { Buffer } from 'buffer';
 import fs from 'fs/promises';
 import getPort from 'get-port';
 import { tmpdir } from 'os';

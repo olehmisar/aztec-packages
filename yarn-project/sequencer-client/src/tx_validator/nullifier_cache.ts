@@ -2,6 +2,8 @@ import type { NullifierSource } from '@aztec/p2p';
 import type { MerkleTreeReadOperations } from '@aztec/stdlib/interfaces/server';
 import { MerkleTreeId } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
+
 /**
  * Implements a nullifier source by checking a DB and an in-memory collection.
  * Intended for validating transactions as they are added to a block.

@@ -21,6 +21,7 @@ import { MerkleTreeId } from '@aztec/stdlib/trees';
 import type { TreeSnapshots } from '@aztec/stdlib/tx';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import type { AvmExecutionEnvironment } from '../avm/avm_execution_environment.js';
 import type { PublicContractsDBInterface } from '../db_interfaces.js';

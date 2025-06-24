@@ -1,6 +1,8 @@
 import { Fr } from '@aztec/foundation/fields';
 import { jsonStringify } from '@aztec/foundation/json-rpc';
 
+import { Buffer } from 'buffer';
+
 import { RevertCode } from './revert_code.js';
 
 describe('revert_code', () => {

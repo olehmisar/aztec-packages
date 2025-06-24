@@ -1,6 +1,8 @@
 import { BarretenbergSync } from '@aztec/bb.js';
 import { numToInt32BE } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { concatenateUint8Arrays } from '../serialize.js';
 import { EcdsaSignature } from './signature.js';
 

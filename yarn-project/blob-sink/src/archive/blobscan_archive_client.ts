@@ -4,6 +4,7 @@ import { makeBackoff, retry } from '@aztec/foundation/retry';
 import { type ZodFor, schemas } from '@aztec/foundation/schemas';
 import { type TelemetryClient, getTelemetryClient } from '@aztec/telemetry-client';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { BlobArchiveClientInstrumentation } from './instrumentation.js';

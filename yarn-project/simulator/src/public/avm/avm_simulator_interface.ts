@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 /**
  * Interface for AvmSimulator to break the circular dependency between avm_context.ts and avm_simulator.ts
  */

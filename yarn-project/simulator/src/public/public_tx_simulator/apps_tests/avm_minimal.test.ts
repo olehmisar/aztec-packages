@@ -2,6 +2,8 @@ import { jsonParseWithSchema, jsonStringify } from '@aztec/foundation/json-rpc';
 import { readTestData, writeTestData } from '@aztec/foundation/testing/files';
 import { AvmCircuitInputs } from '@aztec/stdlib/avm';
 
+import { Buffer } from 'buffer';
+
 import { createAvmMinimalPublicTx, readAvmMinimalPublicTxInputsFromFile } from '../../fixtures/minimal_public_tx.js';
 
 describe('Public TX simulator apps tests: AvmMinimalTestContract', () => {

@@ -3,6 +3,8 @@ import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { PrivateBaseRollupHints } from './base_rollup_hints.js';
 import { PrivateTubeData } from './private_tube_data.js';
 

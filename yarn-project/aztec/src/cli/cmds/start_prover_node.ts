@@ -17,6 +17,7 @@ import { P2PApiSchema, ProverNodeApiSchema, type ProvingJobBroker } from '@aztec
 import { initTelemetryClient, makeTracedFetch, telemetryClientConfigMappings } from '@aztec/telemetry-client';
 import { getGenesisValues } from '@aztec/world-state/testing';
 
+import { Buffer } from 'buffer';
 import { mnemonicToAccount } from 'viem/accounts';
 
 import { getL1Config } from '../get_l1_config.js';

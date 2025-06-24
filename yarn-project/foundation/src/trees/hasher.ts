@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 /**
  * Defines hasher interface used by Merkle trees.
  */

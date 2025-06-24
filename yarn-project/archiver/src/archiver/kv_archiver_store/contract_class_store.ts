@@ -11,6 +11,8 @@ import type {
 } from '@aztec/stdlib/contract';
 import { Vector } from '@aztec/stdlib/types';
 
+import { Buffer } from 'buffer';
+
 /**
  * LMDB implementation of the ArchiverDataStore interface.
  */

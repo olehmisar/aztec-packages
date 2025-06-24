@@ -2,6 +2,8 @@ import type { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer, serializeToFields } from '@aztec/foundation/serialize';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 export class OptionalNumber {
   constructor(
     /**

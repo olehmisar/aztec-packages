@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 /* eslint-disable camelcase */
 import { default as hash } from 'hash.js';
 

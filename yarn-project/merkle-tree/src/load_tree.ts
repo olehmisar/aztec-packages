@@ -2,6 +2,8 @@ import type { Bufferable, FromBuffer } from '@aztec/foundation/serialize';
 import type { Hasher } from '@aztec/foundation/trees';
 import type { AztecKVStore } from '@aztec/kv-store';
 
+import { Buffer } from 'buffer';
+
 import { type TreeBase, getTreeMeta } from './tree_base.js';
 
 /**

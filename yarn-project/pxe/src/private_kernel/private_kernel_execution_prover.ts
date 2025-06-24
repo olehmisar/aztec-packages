@@ -34,6 +34,8 @@ import {
 } from '@aztec/stdlib/tx';
 import { VerificationKeyAsFields, VerificationKeyData, VkData } from '@aztec/stdlib/vks';
 
+import { Buffer } from 'buffer';
+
 import { PrivateKernelResetPrivateInputsBuilder } from './hints/build_private_kernel_reset_private_inputs.js';
 import type { PrivateKernelOracle } from './private_kernel_oracle.js';
 

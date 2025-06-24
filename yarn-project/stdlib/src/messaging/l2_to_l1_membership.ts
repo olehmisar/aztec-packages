@@ -2,6 +2,8 @@ import { SHA256Trunc } from '@aztec/foundation/crypto';
 import { Fr } from '@aztec/foundation/fields';
 import { MerkleTreeCalculator, SiblingPath, UnbalancedMerkleTreeCalculator } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 export interface MessageRetrieval {
   getL2ToL1Messages(l2BlockNumber: number): Promise<Fr[][] | undefined>;
 }

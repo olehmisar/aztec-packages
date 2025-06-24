@@ -1,5 +1,7 @@
 import { randomBytes as bbRandomBytes } from '@aztec/bb.js';
 
+import { Buffer } from 'buffer';
+
 import { RandomnessSingleton } from './randomness_singleton.js';
 
 export const randomBytes = (len: number) => {

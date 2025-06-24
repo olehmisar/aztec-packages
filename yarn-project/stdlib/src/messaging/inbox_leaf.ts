@@ -3,6 +3,8 @@ import { toBigIntBE } from '@aztec/foundation/bigint-buffer';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 export class InboxLeaf {
   constructor(
     /** Index of the leaf in the whole tree. */

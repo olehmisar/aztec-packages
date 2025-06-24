@@ -50,6 +50,8 @@ import { BLS12Point, Fr, GrumpkinScalar, Point } from '@aztec/foundation/fields'
 import type { Bufferable } from '@aztec/foundation/serialize';
 import { MembershipWitness } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import { FunctionSelector } from '../abi/function_selector.js';
 import { ContractStorageRead } from '../avm/contract_storage_read.js';
 import { ContractStorageUpdateRequest } from '../avm/contract_storage_update_request.js';

@@ -17,6 +17,8 @@ import {
 import { hashVK } from '@aztec/stdlib/hash';
 import { PublicKeys } from '@aztec/stdlib/keys';
 
+import { Buffer } from 'buffer';
+
 describe('Data generation for noir tests', () => {
   setupCustomSnapshotSerializers(expect);
 

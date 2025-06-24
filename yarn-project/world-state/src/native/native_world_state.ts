@@ -17,6 +17,7 @@ import { BlockHeader, PartialStateReference, StateReference } from '@aztec/stdli
 import { getTelemetryClient } from '@aztec/telemetry-client';
 
 import assert from 'assert/strict';
+import { Buffer } from 'buffer';
 import { mkdtemp, rm } from 'fs/promises';
 import { tmpdir } from 'os';
 import { join } from 'path';

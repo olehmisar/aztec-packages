@@ -8,6 +8,8 @@ import {
   type TxValidator,
 } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 export interface NullifierSource {
   nullifiersExist: (nullifiers: Buffer[]) => Promise<boolean[]>;
 }

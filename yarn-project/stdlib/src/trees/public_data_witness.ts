@@ -5,6 +5,7 @@ import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import { MembershipWitness, SiblingPath } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { schemas } from '../schemas/schemas.js';

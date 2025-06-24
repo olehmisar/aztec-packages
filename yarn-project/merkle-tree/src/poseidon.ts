@@ -2,6 +2,8 @@ import { poseidon2Hash } from '@aztec/foundation/crypto/sync';
 import { Fr } from '@aztec/foundation/fields';
 import type { Hasher } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 /**
  * A helper class encapsulating poseidon2 hash functionality.
  * @deprecated Don't call poseidon2 directly in production code. Instead, create suitably-named functions for specific

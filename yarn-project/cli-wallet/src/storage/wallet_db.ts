@@ -6,6 +6,8 @@ import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { GasSettings } from '@aztec/stdlib/gas';
 import type { TxHash } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import type { AccountType } from '../utils/accounts.js';
 import { extractECDSAPublicKeyFromBase64String } from '../utils/ecdsa.js';
 

@@ -3,6 +3,8 @@ import { randomBytes } from '@aztec/foundation/crypto';
 import { Fr } from '@aztec/foundation/fields';
 import { mapTuple } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import type { Signature } from '../signature/index.js';
 
 /**

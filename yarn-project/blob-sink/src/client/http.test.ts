@@ -4,6 +4,7 @@ import { SecretValue } from '@aztec/foundation/config';
 import { Fr } from '@aztec/foundation/fields';
 
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 import http from 'http';
 import type { AddressInfo } from 'net';
 

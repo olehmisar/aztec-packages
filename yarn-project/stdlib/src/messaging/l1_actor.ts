@@ -3,6 +3,8 @@ import { EthAddress } from '@aztec/foundation/eth-address';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 /**
  * The sender of an L1 to L2 message or recipient of an L2 to L1 message.
  */

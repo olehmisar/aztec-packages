@@ -1,5 +1,6 @@
 import { Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
 import chunk from 'lodash.chunk';
 
 /**

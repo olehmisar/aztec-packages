@@ -4,6 +4,7 @@ import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 const EMPTY_PROOF_SIZE = 42;
 

@@ -3,6 +3,8 @@ import { hexSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 import { AztecAddress } from '../aztec-address/index.js';
 import { Vector } from '../types/shared.js';
 

@@ -1,6 +1,7 @@
 import { promiseWithResolvers } from '@aztec/foundation/promise';
 import { sleep } from '@aztec/foundation/sleep';
 
+import { Buffer } from 'buffer';
 import { expect } from 'chai';
 import { mkdtemp } from 'fs/promises';
 import { tmpdir } from 'os';

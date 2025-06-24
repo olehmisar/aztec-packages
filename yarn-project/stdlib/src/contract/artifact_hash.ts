@@ -4,6 +4,7 @@ import { createLogger } from '@aztec/foundation/log';
 import { numToUInt8 } from '@aztec/foundation/serialize';
 import { MerkleTree, MerkleTreeCalculator } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
 import deterministicStringify from 'json-stringify-deterministic';
 
 import { type ContractArtifact, type FunctionArtifact, FunctionSelector, FunctionType } from '../abi/index.js';

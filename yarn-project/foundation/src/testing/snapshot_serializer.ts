@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import type { NewPlugin } from 'pretty-format';
 import { inspect } from 'util';
 

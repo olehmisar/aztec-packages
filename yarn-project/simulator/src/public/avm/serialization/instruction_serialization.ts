@@ -1,4 +1,5 @@
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import { TaggedMemory } from '../avm_memory_types.js';
 import { BufferCursor } from './buffer_cursor.js';

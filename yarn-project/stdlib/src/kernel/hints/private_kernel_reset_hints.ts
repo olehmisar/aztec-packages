@@ -1,5 +1,7 @@
 import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { KeyValidationHint } from './key_validation_hint.js';
 import { type NoteHashReadRequestHints, noteHashReadRequestHintsFromBuffer } from './note_hash_read_request_hints.js';
 import { type NullifierReadRequestHints, nullifierReadRequestHintsFromBuffer } from './nullifier_read_request_hints.js';

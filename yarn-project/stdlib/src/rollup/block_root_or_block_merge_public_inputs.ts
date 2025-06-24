@@ -7,6 +7,8 @@ import { BufferReader, type Tuple, serializeToBuffer, serializeToFields } from '
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { AppendOnlyTreeSnapshot } from '../trees/append_only_tree_snapshot.js';
 import { GlobalVariables } from '../tx/global_variables.js';
 import { EpochConstantData } from './epoch_constant_data.js';

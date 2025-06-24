@@ -4,6 +4,7 @@ import { bufferToHex } from '@aztec/foundation/string';
 import type { WorldStateSyncStatus, WorldStateSynchronizer } from '@aztec/stdlib/interfaces/server';
 
 import type { PeerId } from '@libp2p/interface';
+import { Buffer } from 'buffer';
 
 /*
  * P2P Status Message

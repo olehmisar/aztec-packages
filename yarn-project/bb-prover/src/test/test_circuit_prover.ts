@@ -64,6 +64,8 @@ import type {
 import { VerificationKeyData } from '@aztec/stdlib/vks';
 import { type TelemetryClient, getTelemetryClient, trackSpan } from '@aztec/telemetry-client';
 
+import { Buffer } from 'buffer';
+
 import { ProverInstrumentation } from '../instrumentation.js';
 import { mapProtocolArtifactNameToCircuitName } from '../stats.js';
 import { PROOF_DELAY_MS, WITGEN_DELAY_MS } from './delay_values.js';

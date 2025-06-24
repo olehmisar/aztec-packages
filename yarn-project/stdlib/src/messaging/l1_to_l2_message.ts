@@ -5,6 +5,8 @@ import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex } from '@aztec/foundation/string';
 import { SiblingPath } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import type { AztecAddress } from '../aztec-address/index.js';
 import { computeL1ToL2MessageNullifier } from '../hash/hash.js';
 import type { AztecNode } from '../interfaces/aztec-node.js';

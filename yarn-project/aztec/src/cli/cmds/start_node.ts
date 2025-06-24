@@ -15,6 +15,7 @@ import {
 } from '@aztec/telemetry-client';
 import { getGenesisValues } from '@aztec/world-state/testing';
 
+import { Buffer } from 'buffer';
 import { mnemonicToAccount, privateKeyToAccount } from 'viem/accounts';
 
 import { createAztecNode, deployContractsToL1 } from '../../sandbox/index.js';

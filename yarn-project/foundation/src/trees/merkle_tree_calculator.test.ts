@@ -1,5 +1,7 @@
 import { Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
+
 import { MerkleTreeCalculator } from './merkle_tree_calculator.js';
 
 describe('merkle tree root calculator', () => {

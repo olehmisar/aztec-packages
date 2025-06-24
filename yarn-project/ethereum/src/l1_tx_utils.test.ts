@@ -5,6 +5,7 @@ import { createLogger } from '@aztec/foundation/log';
 import { sleep } from '@aztec/foundation/sleep';
 
 import type { Anvil } from '@viem/anvil';
+import { Buffer } from 'buffer';
 import { type Abi, createPublicClient, http } from 'viem';
 import { mnemonicToAccount, privateKeyToAccount } from 'viem/accounts';
 import { foundry } from 'viem/chains';

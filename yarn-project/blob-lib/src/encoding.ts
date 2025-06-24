@@ -1,6 +1,7 @@
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import type { Blob as BlobBuffer } from 'c-kzg';
 
 // Note duplicated from stdlib !

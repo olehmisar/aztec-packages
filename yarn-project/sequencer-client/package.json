@@ -49,6 +49,7 @@
     "@aztec/telemetry-client": "workspace:^",
     "@aztec/validator-client": "workspace:^",
     "@aztec/world-state": "workspace:^",
+    "buffer": "^6.0.3",
     "lodash.chunk": "^4.2.0",
     "lodash.pick": "^4.4.0",
     "tslib": "^2.4.0",

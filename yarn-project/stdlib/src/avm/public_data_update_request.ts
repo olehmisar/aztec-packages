@@ -1,6 +1,7 @@
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 import type { AztecAddress } from '../aztec-address/index.js';

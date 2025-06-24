@@ -2,6 +2,7 @@ import { bufferSchema, mapSchema } from '@aztec/foundation/schemas';
 import type { WitnessMap } from '@aztec/noir-acvm_js';
 import { serializeWitness } from '@aztec/noir-noirc_abi';
 
+import { Buffer } from 'buffer';
 import { Encoder } from 'msgpackr';
 import { z } from 'zod';
 

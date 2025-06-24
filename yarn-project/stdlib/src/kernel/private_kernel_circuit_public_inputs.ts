@@ -2,6 +2,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { bufferSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { AztecAddress } from '../aztec-address/index.js';
 import { TxConstantData } from '../tx/tx_constant_data.js';
 import { PrivateAccumulatedData } from './private_accumulated_data.js';

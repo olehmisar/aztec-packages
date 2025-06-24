@@ -1,5 +1,7 @@
 import type { BlobJson } from '@aztec/blob-lib';
 
+import { Buffer } from 'buffer';
+
 /** Interface to an blob archiving service. */
 export interface BlobArchiveClient {
   getBlobData(id: string): Promise<Buffer | undefined>;

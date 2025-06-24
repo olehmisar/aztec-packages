@@ -1,6 +1,7 @@
 import { Fr } from '@aztec/foundation/fields';
 import { type ZodFor, optional } from '@aztec/foundation/schemas';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import type { AbiDecoded } from '../abi/decoder.js';

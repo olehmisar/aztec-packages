@@ -34,6 +34,7 @@ import type { L1PublishBlockStats } from '@aztec/stdlib/stats';
 import { type ProposedBlockHeader, StateReference, TxHash } from '@aztec/stdlib/tx';
 import { type TelemetryClient, getTelemetryClient } from '@aztec/telemetry-client';
 
+import { Buffer } from 'buffer';
 import pick from 'lodash.pick';
 import { type TransactionReceipt, encodeFunctionData, multicall3Abi, toHex } from 'viem';
 

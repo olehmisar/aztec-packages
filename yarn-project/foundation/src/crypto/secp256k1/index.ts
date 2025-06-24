@@ -1,5 +1,7 @@
 import { BarretenbergSync } from '@aztec/bb.js';
 
+import { Buffer } from 'buffer';
+
 /**
  * Secp256k1 elliptic curve operations.
  */

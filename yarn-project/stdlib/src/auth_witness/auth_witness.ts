@@ -4,6 +4,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 import type { AztecAddress } from '../aztec-address/index.js';
 import { hexSchemaFor } from '../schemas/schemas.js';
 import { Vector } from '../types/shared.js';

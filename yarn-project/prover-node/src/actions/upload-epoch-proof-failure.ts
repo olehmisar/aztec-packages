@@ -11,6 +11,7 @@ import type { WorldStateSynchronizer } from '@aztec/stdlib/interfaces/server';
 import { type UploadSnapshotMetadata, getBasePath, uploadSnapshotData } from '@aztec/stdlib/snapshots';
 import { WORLD_STATE_DB_VERSION } from '@aztec/world-state';
 
+import { Buffer } from 'buffer';
 import { mkdtemp } from 'fs/promises';
 import { tmpdir } from 'os';
 import { dirname, join } from 'path';

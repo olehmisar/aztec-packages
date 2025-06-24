@@ -4,6 +4,8 @@ import { computeInnerAuthWitHash, computeOuterAuthWitHash } from '@aztec/stdlib/
 import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { computeVarArgsHash } from '@aztec/stdlib/hash';
 
+import { Buffer } from 'buffer';
+
 import { ContractFunctionInteraction } from '../contract/contract_function_interaction.js';
 
 /** Metadata for the intent */

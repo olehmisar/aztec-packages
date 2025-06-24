@@ -14,6 +14,7 @@ import type { FunctionsOf } from '@aztec/foundation/types';
 import { AztecAddress } from '@aztec/stdlib/aztec-address';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import { InvalidTagValueError, MemorySliceOutOfRangeError, TagCheckError } from './errors.js';
 

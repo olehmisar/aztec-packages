@@ -5,6 +5,7 @@ import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import type { GlobalVariables } from '@aztec/stdlib/tx';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import { SideEffectLimitReachedError } from '../side_effect_errors.js';
 import type { PublicPersistableStateManager } from '../state_manager/state_manager.js';

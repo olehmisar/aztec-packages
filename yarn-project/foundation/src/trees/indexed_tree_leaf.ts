@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 /**
  * A leaf of an indexed merkle tree.
  */

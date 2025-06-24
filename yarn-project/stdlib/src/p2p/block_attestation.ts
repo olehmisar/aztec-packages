@@ -5,6 +5,7 @@ import { Signature } from '@aztec/foundation/eth-signature';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { type ZodFor, schemas } from '../schemas/index.js';

@@ -36,6 +36,7 @@
     "@aztec/foundation": "workspace:^",
     "@aztec/l1-artifacts": "workspace:^",
     "@viem/anvil": "^0.0.10",
+    "buffer": "^6.0.3",
     "dotenv": "^16.0.3",
     "tslib": "^2.4.0",
     "viem": "2.23.7",

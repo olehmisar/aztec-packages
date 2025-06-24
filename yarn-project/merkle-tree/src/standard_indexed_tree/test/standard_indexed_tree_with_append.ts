@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { StandardIndexedTree } from '../standard_indexed_tree.js';
 
 /**

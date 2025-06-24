@@ -1,4 +1,5 @@
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 
 import { Field, Uint8, Uint32 } from '../avm_memory_types.js';
 import { initContext, initExecutionEnvironment } from '../fixtures/initializers.js';

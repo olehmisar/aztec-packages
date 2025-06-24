@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { dirname, join, resolve } from 'path';
 

@@ -29,6 +29,7 @@ import { makeContractClassPublic, makeContractInstanceFromClassId } from '@aztec
 import { NativeWorldStateService } from '@aztec/world-state';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 import { randomInt } from 'crypto';
 import { mock } from 'jest-mock-extended';
 

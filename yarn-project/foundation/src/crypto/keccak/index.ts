@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import { Keccak } from 'sha3';
 
 import { Buffer32 } from '../../buffer/buffer32.js';

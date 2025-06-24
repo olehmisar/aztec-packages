@@ -1,6 +1,7 @@
 import { createLogger } from '@aztec/foundation/log';
 import { ClientIvcProof } from '@aztec/stdlib/proofs';
 
+import { Buffer } from 'buffer';
 import os from 'os';
 import { ungzip } from 'pako';
 

@@ -2,6 +2,7 @@ import type { P2PClientType } from '@aztec/stdlib/p2p';
 import { TxHash } from '@aztec/stdlib/tx';
 
 import type { PeerId } from '@libp2p/interface';
+import { Buffer } from 'buffer';
 
 import type { MemPools } from '../../../mem_pools/interface.js';
 import type { ReqRespSubProtocolHandler } from '../interface.js';

@@ -19,6 +19,7 @@ import type {
   UtilitySimulationResult,
 } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
 import { type MockProxy, mock } from 'jest-mock-extended';
 
 import type { Wallet } from '../wallet/wallet.js';

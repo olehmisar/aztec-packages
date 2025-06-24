@@ -1,6 +1,7 @@
 import { Buffer32 } from '@aztec/foundation/buffer';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { hasHexPrefix, hexToBuffer } from '../string/index.js';

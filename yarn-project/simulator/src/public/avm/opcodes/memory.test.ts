@@ -6,6 +6,8 @@ import {
 } from '@aztec/constants';
 import { Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
+
 import type { AvmContext } from '../avm_context.js';
 import { Field, TaggedMemory, TypeTag, Uint8, Uint16, Uint32, Uint64, Uint128 } from '../avm_memory_types.js';
 import { MemorySliceOutOfRangeError } from '../errors.js';

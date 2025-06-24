@@ -2,6 +2,7 @@ import { Fr } from '@aztec/foundation/fields';
 import { jsonParseWithSchema, jsonStringify } from '@aztec/foundation/json-rpc';
 import { schemas } from '@aztec/foundation/schemas';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { AztecAddress } from '../aztec-address/index.js';

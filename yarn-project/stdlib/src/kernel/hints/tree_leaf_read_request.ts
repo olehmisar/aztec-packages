@@ -1,6 +1,8 @@
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 export class TreeLeafReadRequest {
   constructor(
     public value: Fr,

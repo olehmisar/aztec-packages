@@ -3,6 +3,8 @@ import { hexSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 import { AztecAddress } from '../aztec-address/index.js';
 import { computeAddress, computePreaddress, deriveKeys } from '../keys/index.js';
 import { PublicKeys } from '../keys/public_keys.js';

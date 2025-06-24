@@ -3,6 +3,8 @@ import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { L2Block } from '@aztec/stdlib/block';
 import { BlockHeader, Tx } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 /** All data from an epoch used in proving. */
 export type EpochProvingJobData = {
   epochNumber: bigint;

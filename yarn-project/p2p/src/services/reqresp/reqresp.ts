@@ -8,6 +8,7 @@ import { Attributes, type TelemetryClient, getTelemetryClient, trackSpan } from 
 
 import type { IncomingStreamData, PeerId, Stream } from '@libp2p/interface';
 import { abortableDuplex, abortableSink } from 'abortable-iterator';
+import { Buffer } from 'buffer';
 import { pipe } from 'it-pipe';
 import type { Libp2p } from 'libp2p';
 import type { Uint8ArrayList } from 'uint8arraylist';

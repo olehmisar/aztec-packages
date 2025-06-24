@@ -4,6 +4,8 @@ import type { Hasher } from '@aztec/foundation/trees';
 import type { AztecKVStore } from '@aztec/kv-store';
 import { openTmpStore } from '@aztec/kv-store/lmdb';
 
+import { Buffer } from 'buffer';
+
 import { loadTree } from '../load_tree.js';
 import { newTree } from '../new_tree.js';
 import { standardBasedTreeTestSuite } from '../test/standard_based_test_suite.js';

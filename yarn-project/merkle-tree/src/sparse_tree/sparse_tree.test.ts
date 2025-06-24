@@ -6,6 +6,8 @@ import type { Hasher } from '@aztec/foundation/trees';
 import type { AztecKVStore } from '@aztec/kv-store';
 import { openTmpStore } from '@aztec/kv-store/lmdb';
 
+import { Buffer } from 'buffer';
+
 import { INITIAL_LEAF, newTree } from '../index.js';
 import type { UpdateOnlyTree } from '../interfaces/update_only_tree.js';
 import { loadTree } from '../load_tree.js';

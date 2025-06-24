@@ -3,6 +3,8 @@ import type { AztecAsyncArray, AztecAsyncKVStore, AztecAsyncMap } from '@aztec/k
 import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { CompleteAddress } from '@aztec/stdlib/contract';
 
+import { Buffer } from 'buffer';
+
 import type { DataProvider } from '../data_provider.js';
 
 export class AddressDataProvider implements DataProvider {

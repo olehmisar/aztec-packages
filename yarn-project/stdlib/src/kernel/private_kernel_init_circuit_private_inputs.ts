@@ -1,6 +1,8 @@
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { TxRequest } from '../tx/tx_request.js';
 import { PrivateCallData } from './private_call_data.js';
 

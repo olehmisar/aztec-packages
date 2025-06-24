@@ -1,5 +1,7 @@
 import type { Blob } from '@aztec/blob-lib';
 
+import { Buffer } from 'buffer';
+
 import type { BlobStore } from '../blobstore/index.js';
 import { BlobWithIndex } from '../types/blob_with_index.js';
 import type { BlobSinkClientInterface } from './interface.js';

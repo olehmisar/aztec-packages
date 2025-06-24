@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { jsonParseWithSchema, jsonStringify } from '../json-rpc/convert.js';
 import { updateInlineTestData } from '../testing/files/index.js';
 import { BLS12Fq, BLS12Fr } from './bls12_fields.js';

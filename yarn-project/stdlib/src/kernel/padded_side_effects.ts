@@ -3,6 +3,8 @@ import { makeTuple } from '@aztec/foundation/array';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { PrivateLog } from '../logs/index.js';
 
 export class PaddedSideEffects {

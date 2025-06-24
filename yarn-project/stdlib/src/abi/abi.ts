@@ -3,6 +3,7 @@ import type { Fr } from '@aztec/foundation/fields';
 import { createLogger } from '@aztec/foundation/log';
 import { type ZodFor, schemas } from '@aztec/foundation/schemas';
 
+import { Buffer } from 'buffer';
 import { inflate } from 'pako';
 import { z } from 'zod';
 

@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import type { AvmContext } from '../avm_context.js';
 import { Field, TypeTag, Uint8, Uint16, Uint32, Uint64, Uint128 } from '../avm_memory_types.js';
 import { initContext } from '../fixtures/initializers.js';

@@ -2,6 +2,8 @@ import { pedersenHash } from '@aztec/foundation/crypto/sync';
 import { Fr } from '@aztec/foundation/fields';
 import type { Hasher } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 /**
  * A helper class encapsulating Pedersen hash functionality.
  * @deprecated Don't call pedersen directly in production code. Instead, create suitably-named functions for specific

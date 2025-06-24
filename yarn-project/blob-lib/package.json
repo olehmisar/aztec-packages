@@ -27,6 +27,7 @@
   "dependencies": {
     "@aztec/constants": "workspace:^",
     "@aztec/foundation": "workspace:^",
+    "buffer": "^6.0.3",
     "c-kzg": "4.0.0-alpha.1",
     "tslib": "^2.4.0"
   },

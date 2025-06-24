@@ -63,6 +63,7 @@ import {
 } from '@aztec/stdlib/tx';
 
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 import { Matcher, type MatcherCreator, type MockProxy, mock } from 'jest-mock-extended';
 import { toFunctionSelector } from 'viem';
 

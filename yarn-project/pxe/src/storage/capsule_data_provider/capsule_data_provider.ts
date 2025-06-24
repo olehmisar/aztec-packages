@@ -4,6 +4,8 @@ import { type Logger, createLogger } from '@aztec/foundation/log';
 import type { AztecAsyncKVStore, AztecAsyncMap } from '@aztec/kv-store';
 import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 
+import { Buffer } from 'buffer';
+
 import type { DataProvider } from '../data_provider.js';
 
 export class CapsuleDataProvider implements DataProvider {

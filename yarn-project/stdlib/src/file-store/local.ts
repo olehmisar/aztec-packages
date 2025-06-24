@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import { access, mkdir, readFile, writeFile } from 'fs/promises';
 import { dirname, resolve } from 'path';
 

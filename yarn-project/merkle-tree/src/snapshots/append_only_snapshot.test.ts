@@ -3,6 +3,8 @@ import type { FromBuffer } from '@aztec/foundation/serialize';
 import type { AztecKVStore } from '@aztec/kv-store';
 import { openTmpStore } from '@aztec/kv-store/lmdb';
 
+import { Buffer } from 'buffer';
+
 import { Pedersen, StandardTree, newTree } from '../index.js';
 import { AppendOnlySnapshotBuilder } from './append_only_snapshot.js';
 import { describeSnapshotBuilderTestSuite } from './snapshot_builder_test_suite.js';

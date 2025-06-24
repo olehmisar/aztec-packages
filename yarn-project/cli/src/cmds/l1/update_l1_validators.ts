@@ -13,6 +13,7 @@ import type { LogFn, Logger } from '@aztec/foundation/log';
 import { RollupAbi, StakingAssetHandlerAbi } from '@aztec/l1-artifacts';
 import { ZkPassportProofParams } from '@aztec/stdlib/zkpassport';
 
+import { Buffer } from 'buffer';
 import { encodeFunctionData, formatEther, getContract } from 'viem';
 import { generatePrivateKey, mnemonicToAccount, privateKeyToAccount } from 'viem/accounts';
 

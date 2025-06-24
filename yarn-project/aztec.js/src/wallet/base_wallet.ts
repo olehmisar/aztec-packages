@@ -26,6 +26,8 @@ import type {
   UtilitySimulationResult,
 } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import type { IntentAction, IntentInnerHash } from '../utils/authwit.js';
 import type { Wallet } from './wallet.js';
 

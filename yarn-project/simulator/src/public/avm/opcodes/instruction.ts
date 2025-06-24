@@ -1,6 +1,7 @@
 import type { Bufferable } from '@aztec/foundation/serialize';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import type { AvmContext } from '../avm_context.js';
 import { type Gas, computeAddressingCost, getBaseGasCost, getDynamicGasCost, mulGas, sumGas } from '../avm_gas.js';

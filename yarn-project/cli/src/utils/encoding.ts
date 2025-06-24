@@ -1,6 +1,8 @@
 import { Fr } from '@aztec/foundation/fields';
 import type { ABIParameter, AbiType, StructType } from '@aztec/stdlib/abi';
 
+import { Buffer } from 'buffer';
+
 /**
  * Parses a hex string into an ABI struct type.
  * @param str - The encoded hex string.

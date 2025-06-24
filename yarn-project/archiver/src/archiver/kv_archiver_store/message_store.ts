@@ -13,6 +13,8 @@ import {
 } from '@aztec/kv-store';
 import { InboxLeaf } from '@aztec/stdlib/messaging';
 
+import { Buffer } from 'buffer';
+
 import {
   type InboxMessage,
   deserializeInboxMessage,

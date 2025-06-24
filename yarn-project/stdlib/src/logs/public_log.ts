@@ -11,6 +11,7 @@ import {
   serializeToFields,
 } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 import { z } from 'zod';
 

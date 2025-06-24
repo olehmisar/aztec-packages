@@ -3,6 +3,8 @@ import type { Fr } from '@aztec/foundation/fields';
 import type { EventSelector, FunctionSelector } from '@aztec/stdlib/abi';
 import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 
+import { Buffer } from 'buffer';
+
 /** Any type that can be converted into a field for a contract call. */
 export type FieldLike = Fr | Buffer | bigint | number | { /** Converts to field */ toField: () => Fr };
 

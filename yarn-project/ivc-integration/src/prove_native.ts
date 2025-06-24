@@ -31,6 +31,7 @@ import type { ClientIvcProof, Proof } from '@aztec/stdlib/proofs';
 import { enhanceProofWithPiValidationFlag } from '@aztec/stdlib/rollup';
 import type { VerificationKeyData } from '@aztec/stdlib/vks';
 
+import { Buffer } from 'buffer';
 import * as fs from 'fs/promises';
 import { Encoder } from 'msgpackr';
 import * as path from 'path';

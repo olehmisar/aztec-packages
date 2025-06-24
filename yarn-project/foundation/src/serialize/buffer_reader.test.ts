@@ -1,4 +1,5 @@
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 
 import { randomBytes } from '../crypto/index.js';
 import { Fq, Fr } from '../fields/fields.js';

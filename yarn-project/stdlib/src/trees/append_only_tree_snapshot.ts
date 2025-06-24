@@ -4,6 +4,7 @@ import { schemas } from '@aztec/foundation/schemas';
 import { BufferReader, FieldReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 import { z } from 'zod';
 

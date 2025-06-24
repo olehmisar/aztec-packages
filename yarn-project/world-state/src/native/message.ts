@@ -4,6 +4,8 @@ import { AppendOnlyTreeSnapshot, MerkleTreeId } from '@aztec/stdlib/trees';
 import type { StateReference } from '@aztec/stdlib/tx';
 import type { UInt32 } from '@aztec/stdlib/types';
 
+import { Buffer } from 'buffer';
+
 export enum WorldStateMessageType {
   GET_TREE_INFO = 100,
   GET_STATE_REFERENCE,

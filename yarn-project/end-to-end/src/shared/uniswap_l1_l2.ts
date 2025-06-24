@@ -24,6 +24,7 @@ import { computeL2ToL1MessageHash } from '@aztec/stdlib/hash';
 import { computeL2ToL1MembershipWitness } from '@aztec/stdlib/messaging';
 
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 import { type GetContractReturnType, getContract, parseEther, toFunctionSelector } from 'viem';
 
 import { ensureAccountsPubliclyDeployed } from '../fixtures/utils.js';

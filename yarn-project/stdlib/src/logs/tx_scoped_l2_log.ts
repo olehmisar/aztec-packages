@@ -1,5 +1,6 @@
 import { BufferReader, boolToBuffer, numToUInt32BE } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { TxHash } from '../tx/tx_hash.js';

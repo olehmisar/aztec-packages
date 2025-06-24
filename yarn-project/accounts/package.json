@@ -84,6 +84,7 @@
     "@aztec/ethereum": "workspace:^",
     "@aztec/foundation": "workspace:^",
     "@aztec/stdlib": "workspace:^",
+    "buffer": "^6.0.3",
     "tslib": "^2.4.0"
   },
   "devDependencies": {

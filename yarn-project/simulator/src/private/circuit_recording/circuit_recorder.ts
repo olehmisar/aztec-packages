@@ -3,6 +3,8 @@ import { createLogger } from '@aztec/foundation/log';
 import { Timer } from '@aztec/foundation/timer';
 import type { ForeignCallHandler, ForeignCallInput, ForeignCallOutput } from '@aztec/noir-acvm_js';
 
+import { Buffer } from 'buffer';
+
 import type { ACIRCallback } from '../acvm/acvm.js';
 import type { ACVMWitness } from '../acvm/acvm_types.js';
 

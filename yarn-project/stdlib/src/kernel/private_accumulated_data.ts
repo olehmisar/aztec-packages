@@ -11,6 +11,8 @@ import { makeTuple } from '@aztec/foundation/array';
 import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 import { ScopedCountedL2ToL1Message } from '../messaging/l2_to_l1_message.js';
 import { ScopedCountedLogHash } from './log_hash.js';
 import { ScopedNoteHash } from './note_hash.js';

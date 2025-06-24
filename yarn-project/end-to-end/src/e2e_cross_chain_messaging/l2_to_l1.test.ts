@@ -8,6 +8,7 @@ import { computeL2ToL1MessageHash } from '@aztec/stdlib/hash';
 import type { AztecNode, AztecNodeAdmin } from '@aztec/stdlib/interfaces/client';
 import { computeL2ToL1MembershipWitness } from '@aztec/stdlib/messaging';
 
+import { Buffer } from 'buffer';
 import { type Hex, decodeEventLog, getContract } from 'viem';
 
 import type { CrossChainTestHarness } from '../shared/cross_chain_test_harness.js';

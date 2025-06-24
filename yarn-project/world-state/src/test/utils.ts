@@ -14,6 +14,8 @@ import type {
 } from '@aztec/stdlib/interfaces/server';
 import { AppendOnlyTreeSnapshot, MerkleTreeId } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
+
 import type { NativeWorldStateService } from '../native/native_world_state.js';
 
 export async function mockBlock(

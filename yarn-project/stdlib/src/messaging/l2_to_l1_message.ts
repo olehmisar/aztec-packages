@@ -3,6 +3,7 @@ import { Fr } from '@aztec/foundation/fields';
 import { schemas } from '@aztec/foundation/schemas';
 import { BufferReader, FieldReader, serializeToBuffer, serializeToFields } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { AztecAddress } from '../aztec-address/index.js';

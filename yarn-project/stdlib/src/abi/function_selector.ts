@@ -4,6 +4,8 @@ import type { Fr } from '@aztec/foundation/fields';
 import { type ZodFor, hexSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, FieldReader, TypeRegistry } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import type { ABIParameter } from './abi.js';
 import { decodeFunctionSignature } from './decoder.js';
 import { Selector } from './selector.js';

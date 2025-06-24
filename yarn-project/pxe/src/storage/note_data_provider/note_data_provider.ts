@@ -6,6 +6,8 @@ import { AztecAddress } from '@aztec/stdlib/aztec-address';
 import type { InBlock } from '@aztec/stdlib/block';
 import { NoteStatus, type NotesFilter } from '@aztec/stdlib/note';
 
+import { Buffer } from 'buffer';
+
 import type { DataProvider } from '../data_provider.js';
 import { NoteDao } from './note_dao.js';
 

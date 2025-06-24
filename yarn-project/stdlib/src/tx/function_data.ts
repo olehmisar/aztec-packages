@@ -2,6 +2,7 @@ import { FUNCTION_DATA_LENGTH } from '@aztec/constants';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { type FunctionAbi, FunctionSelector, FunctionType } from '../abi/index.js';

@@ -12,6 +12,8 @@ import { PeerErrorSeverity } from '@aztec/stdlib/p2p';
 import { DatabasePublicStateSource, MerkleTreeId } from '@aztec/stdlib/trees';
 import type { Tx, TxValidationResult } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import { ArchiveCache } from './archive_cache.js';
 import { BlockHeaderTxValidator } from './block_header_validator.js';
 import { DataTxValidator } from './data_validator.js';

@@ -40,6 +40,7 @@ import { getConfigEnvVars as getTelemetryConfig, initTelemetryClient } from '@az
 import { getGenesisValues } from '@aztec/world-state/testing';
 
 import type { Anvil } from '@viem/anvil';
+import { Buffer } from 'buffer';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { copySync, removeSync } from 'fs-extra/esm';
 import fs from 'fs/promises';

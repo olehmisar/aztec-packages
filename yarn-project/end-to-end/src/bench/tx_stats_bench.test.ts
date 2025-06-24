@@ -4,6 +4,7 @@ import { Timer } from '@aztec/foundation/timer';
 import type { IVCProofVerificationResult } from '@aztec/stdlib/interfaces/server';
 
 import '@jest/globals';
+import { Buffer } from 'buffer';
 import { mkdir, writeFile } from 'fs/promises';
 import path from 'path';
 import { compressSync, uncompressSync } from 'snappy';

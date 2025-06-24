@@ -1,5 +1,7 @@
 import { makeEncodedBlob } from '@aztec/blob-lib/testing';
 
+import { Buffer } from 'buffer';
+
 import type { BlobSinkClientInterface } from './interface.js';
 
 /**

@@ -2,6 +2,7 @@ import { Fr } from '@aztec/foundation/fields';
 import type { L2BlockSource } from '@aztec/stdlib/block';
 
 import type { PeerId } from '@libp2p/interface';
+import { Buffer } from 'buffer';
 
 import type { ReqRespSubProtocolHandler } from '../interface.js';
 

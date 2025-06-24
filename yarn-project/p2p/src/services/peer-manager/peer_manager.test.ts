@@ -13,6 +13,7 @@ import { jest } from '@jest/globals';
 import type { Libp2p, PeerId } from '@libp2p/interface';
 import { createSecp256k1PeerId } from '@libp2p/peer-id-factory';
 import { multiaddr } from '@multiformats/multiaddr';
+import { Buffer } from 'buffer';
 
 import { getP2PDefaultConfig } from '../../config.js';
 import { PeerEvent } from '../../types/index.js';

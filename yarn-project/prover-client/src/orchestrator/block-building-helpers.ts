@@ -54,6 +54,8 @@ import {
 import { Attributes, type Span, runInSpan } from '@aztec/telemetry-client';
 import type { MerkleTreeReadOperations } from '@aztec/world-state';
 
+import { Buffer } from 'buffer';
+
 /**
  * Type representing the names of the trees for the base rollup.
  */

@@ -5,6 +5,7 @@ import type { CircuitSimulator } from '@aztec/simulator/server';
 import { type PrivateExecutionStep, serializePrivateExecutionSteps } from '@aztec/stdlib/kernel';
 import type { ClientIvcProof } from '@aztec/stdlib/proofs';
 
+import { Buffer } from 'buffer';
 import { promises as fs } from 'fs';
 import path from 'path';
 

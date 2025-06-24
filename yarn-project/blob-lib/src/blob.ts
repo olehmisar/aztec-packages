@@ -2,6 +2,7 @@ import { poseidon2Hash, sha256 } from '@aztec/foundation/crypto';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 // Importing directly from 'c-kzg' does not work:
 import cKzg from 'c-kzg';
 import type { Blob as BlobBuffer } from 'c-kzg';

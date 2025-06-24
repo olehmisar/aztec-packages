@@ -5,6 +5,7 @@ import type { ZodFor } from '@aztec/foundation/schemas';
 import { BufferReader, serializeArrayOfBufferableToVector, serializeToBuffer } from '@aztec/foundation/serialize';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import type { GasSettings } from '../gas/gas_settings.js';

@@ -1,5 +1,7 @@
 import { jsonParseWithSchema, jsonStringify } from '@aztec/foundation/json-rpc';
 
+import { Buffer } from 'buffer';
+
 import {
   type ABIParameter,
   type ABIParameterVisibility,

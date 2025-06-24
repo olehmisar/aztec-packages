@@ -1,5 +1,7 @@
 import type { Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
+
 /**
  * Interface to represent a signature.
  */

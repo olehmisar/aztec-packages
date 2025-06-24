@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { createLogger } from '../../log/pino-logger.js';
 
 /**

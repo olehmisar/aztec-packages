@@ -6,6 +6,8 @@ import { BufferReader, serializeToBuffer, serializeToFields } from '@aztec/found
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { AztecAddress } from '../aztec-address/index.js';
 import { Gas } from '../gas/gas.js';
 import { TxConstantData } from '../tx/tx_constant_data.js';

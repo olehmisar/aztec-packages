@@ -1,6 +1,7 @@
 import { poseidon2Hash } from '@aztec/foundation/crypto';
 import { Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
 import cKzg from 'c-kzg';
 import type { Blob as BlobBuffer, Bytes48, KZGProof } from 'c-kzg';
 

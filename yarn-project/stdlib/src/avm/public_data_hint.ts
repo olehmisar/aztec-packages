@@ -3,6 +3,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { MembershipWitness } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import { PublicDataTreeLeafPreimage } from '../trees/index.js';
 
 export class PublicDataHint {

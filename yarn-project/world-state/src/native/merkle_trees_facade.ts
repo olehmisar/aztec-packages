@@ -20,6 +20,7 @@ import {
 import { type BlockHeader, PartialStateReference, StateReference } from '@aztec/stdlib/tx';
 
 import assert from 'assert';
+import { Buffer } from 'buffer';
 
 import {
   type SerializedIndexedLeaf,

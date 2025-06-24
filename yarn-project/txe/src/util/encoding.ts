@@ -5,6 +5,7 @@ import { type ContractArtifact, ContractArtifactSchema } from '@aztec/stdlib/abi
 import { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { type ContractInstanceWithAddress, ContractInstanceWithAddressSchema } from '@aztec/stdlib/contract';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 export type ForeignCallSingle = string;

@@ -12,6 +12,8 @@ import type {
 } from '@aztec/stdlib/trees';
 import type { BlockHeader, StateReference } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 /**
  * Wraps an instance of `MerkleTreeWriteOperations` to allow the sequencer to gate access.
  * If transactions execution goes past the deadline, the simulator will continue to execute and update the world state

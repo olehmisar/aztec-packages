@@ -2,6 +2,7 @@ import { TREE_SNAPSHOTS_LENGTH } from '@aztec/constants';
 import type { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 import { z } from 'zod';
 

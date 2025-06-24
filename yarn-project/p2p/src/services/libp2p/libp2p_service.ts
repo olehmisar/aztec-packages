@@ -44,6 +44,7 @@ import type { ConnectionManager } from '@libp2p/interface-internal';
 import '@libp2p/kad-dht';
 import { mplex } from '@libp2p/mplex';
 import { tcp } from '@libp2p/tcp';
+import { Buffer } from 'buffer';
 import { createLibp2p } from 'libp2p';
 
 import type { P2PConfig } from '../../config.js';

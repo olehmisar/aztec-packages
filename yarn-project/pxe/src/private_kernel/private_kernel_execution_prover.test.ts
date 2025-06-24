@@ -18,6 +18,7 @@ import { makeTxRequest } from '@aztec/stdlib/testing';
 import { NoteAndSlot, PrivateCallExecutionResult, PrivateExecutionResult, type TxRequest } from '@aztec/stdlib/tx';
 import { VerificationKey, VerificationKeyData } from '@aztec/stdlib/vks';
 
+import { Buffer } from 'buffer';
 import { mock } from 'jest-mock-extended';
 
 import { PrivateKernelExecutionProver } from './private_kernel_execution_prover.js';

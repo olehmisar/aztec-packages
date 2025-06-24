@@ -6,6 +6,7 @@ import type { ForeignCallHandler } from '@aztec/noir-protocol-circuits-types/typ
 import type { FunctionArtifactWithContractName } from '@aztec/stdlib/abi';
 import type { NoirCompiledCircuitWithName } from '@aztec/stdlib/noir';
 
+import { Buffer } from 'buffer';
 import * as proc from 'child_process';
 import { promises as fs } from 'fs';
 

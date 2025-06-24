@@ -16,6 +16,7 @@ import { BufferReader, FieldReader, serializeToBuffer } from '@aztec/foundation/
 import { bufferToHex, withoutHexPrefix } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import type { PublicKey } from './public_key.js';

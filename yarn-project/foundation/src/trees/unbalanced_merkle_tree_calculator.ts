@@ -2,6 +2,8 @@ import { serializeToBuffer } from '@aztec/foundation/serialize';
 import type { AsyncHasher } from '@aztec/foundation/trees';
 import { SiblingPath } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import { pedersenHash } from '../crypto/pedersen/index.js';
 
 const indexToKeyHash = (level: number, index: bigint) => `${level}:${index}`;

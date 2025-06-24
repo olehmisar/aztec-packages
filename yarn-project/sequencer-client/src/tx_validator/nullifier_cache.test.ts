@@ -2,6 +2,7 @@ import { times } from '@aztec/foundation/collection';
 import type { MerkleTreeReadOperations } from '@aztec/stdlib/interfaces/server';
 import { MerkleTreeId } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
 import { type MockProxy, mock } from 'jest-mock-extended';
 
 import { NullifierCache } from './nullifier_cache.js';

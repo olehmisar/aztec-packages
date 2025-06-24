@@ -3,6 +3,8 @@ import { bufferSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 import { RootParityInput } from './root_parity_input.js';
 
 export class RootParityInputs {

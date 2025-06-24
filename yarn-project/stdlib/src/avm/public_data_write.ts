@@ -5,6 +5,7 @@ import { BufferReader, FieldReader, serializeToBuffer, serializeToFields } from 
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 /**

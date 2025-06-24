@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { type Batch, Database, LMDBMessageType } from './message.js';
 import { ReadTransaction } from './read_transaction.js';
 import {

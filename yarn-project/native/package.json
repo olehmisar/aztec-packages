@@ -21,6 +21,7 @@
   "dependencies": {
     "@aztec/foundation": "workspace:^",
     "bindings": "^1.5.0",
+    "buffer": "^6.0.3",
     "msgpackr": "^1.11.2"
   },
   "devDependencies": {

@@ -5,6 +5,8 @@ import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/s
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { RecursiveProof } from '../proofs/recursive_proof.js';
 import { VerificationKeyAsFields } from '../vks/verification_key.js';
 import { ParityPublicInputs } from './parity_public_inputs.js';

@@ -2,6 +2,7 @@ import { Fr } from '@aztec/foundation/fields';
 import { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { GasFees } from '@aztec/stdlib/gas';
 
+import { Buffer } from 'buffer';
 import { randomInt } from 'crypto';
 
 import type { AvmContext } from '../avm_context.js';

@@ -1,6 +1,7 @@
 import type { ProjPointType } from '@noble/curves/abstract/weierstrass';
 /* eslint-disable camelcase */
 import { bls12_381 } from '@noble/curves/bls12-381';
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 import { toBufferBE } from '../bigint-buffer/index.js';

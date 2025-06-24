@@ -4,6 +4,7 @@ import type { L2BlockProposedEvent, ViemPublicClient } from '@aztec/ethereum';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import { fileURLToPath } from '@aztec/foundation/url';
 
+import { Buffer } from 'buffer';
 import { readFile } from 'fs/promises';
 import { type MockProxy, mock } from 'jest-mock-extended';
 import { join } from 'path';

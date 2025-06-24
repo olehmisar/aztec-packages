@@ -1,5 +1,6 @@
 import { GrumpkinScalar } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
 import { TextEncoder } from 'util';
 
 import { Schnorr } from './index.js';

@@ -4,6 +4,8 @@ import type { WitnessMap } from '@aztec/noir-types';
 import type { FunctionArtifactWithContractName } from '@aztec/stdlib/abi';
 import type { NoirCompiledCircuitWithName } from '@aztec/stdlib/noir';
 
+import { Buffer } from 'buffer';
+
 import type { ACIRCallback, ACIRExecutionResult } from './acvm/acvm.js';
 import type { ACVMWitness } from './acvm/acvm_types.js';
 import type { ACVMSuccess } from './acvm_native.js';

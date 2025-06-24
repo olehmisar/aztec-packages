@@ -2,6 +2,7 @@ import { toBufferBE } from '@aztec/foundation/bigint-buffer';
 import { Fr } from '@aztec/foundation/fields';
 import { bufferToHex } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 /** A selector is the first 4 bytes of the hash of a signature. */

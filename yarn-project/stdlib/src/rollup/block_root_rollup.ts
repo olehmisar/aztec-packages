@@ -12,6 +12,8 @@ import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/s
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { RootParityInput } from '../parity/root_parity_input.js';
 import { BlockHeader } from '../tx/block_header.js';
 import { PreviousRollupData } from './previous_rollup_data.js';

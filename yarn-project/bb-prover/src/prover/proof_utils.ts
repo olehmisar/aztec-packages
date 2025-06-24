@@ -10,6 +10,7 @@ import { ClientIvcProof, Proof, RecursiveProof } from '@aztec/stdlib/proofs';
 import type { VerificationKeyData } from '@aztec/stdlib/vks';
 
 import assert from 'assert';
+import { Buffer } from 'buffer';
 import { promises as fs } from 'fs';
 import * as path from 'path';
 

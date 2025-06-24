@@ -4,6 +4,7 @@ import { schemas } from '@aztec/foundation/schemas';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import type { IndexedTreeLeaf, IndexedTreeLeafPreimage } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 /**

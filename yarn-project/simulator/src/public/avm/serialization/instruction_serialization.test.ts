@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { BufferCursor } from './buffer_cursor.js';
 import { OperandType, deserialize, serializeAs } from './instruction_serialization.js';
 

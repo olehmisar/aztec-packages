@@ -4,6 +4,8 @@ import { Fr } from '@aztec/foundation/fields';
 import type { BufferReader } from '@aztec/foundation/serialize';
 import type { MembershipWitness } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import {
   PendingReadHint,
   ReadRequestResetHints,

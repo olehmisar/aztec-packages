@@ -7,6 +7,7 @@ import { BufferReader, bigintToUInt64BE, serializeToBuffer } from '@aztec/founda
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 import { z } from 'zod';
 

@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import type { Tuple } from './types.js';
 
 /**

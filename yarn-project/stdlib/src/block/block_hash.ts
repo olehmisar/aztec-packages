@@ -2,6 +2,8 @@ import { Buffer32 } from '@aztec/foundation/buffer';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { schemas } from '../schemas/schemas.js';
 
 /** Hash of an L2 block. */

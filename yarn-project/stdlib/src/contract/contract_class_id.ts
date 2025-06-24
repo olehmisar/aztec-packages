@@ -3,6 +3,7 @@ import { poseidon2HashWithSeparator } from '@aztec/foundation/crypto';
 import { Fr } from '@aztec/foundation/fields';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import { bufferAsFields } from '../abi/index.js';
 import type { ContractClass } from './interfaces/contract_class.js';

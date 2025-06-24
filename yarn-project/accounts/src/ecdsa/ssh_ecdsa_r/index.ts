@@ -11,6 +11,8 @@ import type { ContractArtifact } from '@aztec/stdlib/abi';
 import { AztecAddress } from '@aztec/stdlib/aztec-address';
 import type { PXE } from '@aztec/stdlib/interfaces/client';
 
+import { Buffer } from 'buffer';
+
 import { EcdsaRAccountContractArtifact } from '../ecdsa_r/index.js';
 import { EcdsaRSSHBaseAccountContract } from './account_contract.js';
 

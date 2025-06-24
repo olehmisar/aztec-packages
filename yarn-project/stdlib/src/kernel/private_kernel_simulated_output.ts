@@ -1,5 +1,7 @@
 import type { WitnessMap } from '@aztec/noir-acvm_js';
 
+import { Buffer } from 'buffer';
+
 import type { VerificationKeyData } from '../vks/verification_key.js';
 import type { PrivateKernelCircuitPublicInputs } from './private_kernel_circuit_public_inputs.js';
 import type { PrivateKernelTailCircuitPublicInputs } from './private_kernel_tail_circuit_public_inputs.js';

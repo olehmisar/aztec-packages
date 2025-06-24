@@ -4,6 +4,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { withoutHexPrefix } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 export type ViemZkPassportProofParams = {
   vkeyHash: `0x${string}`;
   proof: `0x${string}`;

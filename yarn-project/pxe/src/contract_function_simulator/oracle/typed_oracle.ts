@@ -10,6 +10,8 @@ import { type MerkleTreeId, type NullifierMembershipWitness, PublicDataWitness }
 import type { BlockHeader } from '@aztec/stdlib/tx';
 import type { UInt64 } from '@aztec/stdlib/types';
 
+import { Buffer } from 'buffer';
+
 import type { MessageLoadOracleInputs } from './message_load_oracle_inputs.js';
 
 /**

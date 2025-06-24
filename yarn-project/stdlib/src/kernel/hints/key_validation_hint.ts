@@ -1,6 +1,8 @@
 import { GrumpkinScalar } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 export class KeyValidationHint {
   constructor(
     /** Master secret key used to derive sk_app and pk_m. */

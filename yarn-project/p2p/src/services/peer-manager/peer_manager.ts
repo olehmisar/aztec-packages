@@ -7,6 +7,7 @@ import { type TelemetryClient, trackSpan } from '@aztec/telemetry-client';
 import { ENR } from '@chainsafe/enr';
 import type { Connection, PeerId } from '@libp2p/interface';
 import type { Multiaddr } from '@multiformats/multiaddr';
+import { Buffer } from 'buffer';
 import type { Libp2p } from 'libp2p';
 import { inspect } from 'util';
 

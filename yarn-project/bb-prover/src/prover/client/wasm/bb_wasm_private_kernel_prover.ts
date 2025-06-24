@@ -7,6 +7,7 @@ import type { CircuitSimulator } from '@aztec/simulator/client';
 import type { PrivateExecutionStep } from '@aztec/stdlib/kernel';
 import { ClientIvcProof } from '@aztec/stdlib/proofs';
 
+import { Buffer } from 'buffer';
 import { ungzip } from 'pako';
 
 import { BBPrivateKernelProver } from '../bb_private_kernel_prover.js';

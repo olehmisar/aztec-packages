@@ -1,6 +1,8 @@
 import { Buffer32 } from '@aztec/foundation/buffer';
 import { BufferReader, bigintToUInt64BE, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import type { TopicType } from './topic_type.js';
 
 export class P2PMessage {

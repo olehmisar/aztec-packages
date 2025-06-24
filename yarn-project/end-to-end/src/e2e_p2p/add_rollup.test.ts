@@ -31,6 +31,7 @@ import { computeL2ToL1MembershipWitness } from '@aztec/stdlib/messaging';
 import { getGenesisValues } from '@aztec/world-state/testing';
 
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 import fs from 'fs';
 import getPort from 'get-port';
 import os from 'os';

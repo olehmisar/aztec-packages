@@ -1,4 +1,5 @@
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import { AvmParsingError, InvalidOpcodeError, InvalidTagValueError } from '../errors.js';
 import { Add, Call, EnvironmentVariable, GetEnvVar, StaticCall, Sub } from '../opcodes/index.js';

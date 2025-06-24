@@ -2,6 +2,8 @@ import { makeTuple } from '@aztec/foundation/array';
 import { toBufferBE } from '@aztec/foundation/bigint-buffer';
 import { BLS12Fr, BLS12Point, Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
+
 import { Blob } from './blob.js';
 import { BatchedBlobAccumulator, FinalBlobBatchingChallenges } from './blob_batching.js';
 import { BlobAccumulatorPublicInputs, BlockBlobPublicInputs } from './blob_batching_public_inputs.js';

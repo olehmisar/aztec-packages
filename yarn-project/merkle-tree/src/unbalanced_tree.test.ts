@@ -4,6 +4,8 @@ import type { FromBuffer } from '@aztec/foundation/serialize';
 import type { Hasher } from '@aztec/foundation/trees';
 import { openTmpStore } from '@aztec/kv-store/lmdb';
 
+import { Buffer } from 'buffer';
+
 import { StandardTree } from './standard_tree/standard_tree.js';
 import { UnbalancedTree } from './unbalanced_tree.js';
 

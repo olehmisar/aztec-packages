@@ -4,6 +4,8 @@ import { bufferSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 import { PartialStateReference } from '../tx/partial_state_reference.js';
 import { RollupTypes } from '../types/shared.js';
 import { BlockConstantData } from './block_constant_data.js';

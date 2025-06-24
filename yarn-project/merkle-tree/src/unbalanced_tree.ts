@@ -2,6 +2,8 @@ import { type Bufferable, type FromBuffer, serializeToBuffer } from '@aztec/foun
 import { SiblingPath } from '@aztec/foundation/trees';
 import type { Hasher } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import { HasherWithStats } from './hasher_with_stats.js';
 import type { MerkleTree } from './interfaces/merkle_tree.js';
 

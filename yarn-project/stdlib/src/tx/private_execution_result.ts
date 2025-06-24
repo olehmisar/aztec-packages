@@ -3,6 +3,7 @@ import { randomBytes, randomInt } from '@aztec/foundation/crypto';
 import { Fr } from '@aztec/foundation/fields';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { NoteSelector } from '../abi/note_selector.js';

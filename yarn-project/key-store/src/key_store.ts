@@ -16,6 +16,8 @@ import {
   derivePublicKeyFromSecretKey,
 } from '@aztec/stdlib/keys';
 
+import { Buffer } from 'buffer';
+
 /**
  * Used for managing keys. Can hold keys of multiple accounts.
  */

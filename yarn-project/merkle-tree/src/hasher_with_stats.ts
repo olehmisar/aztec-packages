@@ -1,5 +1,6 @@
 import type { Hasher } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
 import { createHistogram, performance } from 'perf_hooks';
 
 /**

@@ -11,6 +11,7 @@ import {
 } from '@aztec/foundation/serialize';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 import { z } from 'zod';
 

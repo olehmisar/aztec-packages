@@ -10,6 +10,7 @@ import {
 } from '@aztec/stdlib/versioning';
 
 import type { SignableENR } from '@chainsafe/enr';
+import { Buffer } from 'buffer';
 import xxhashFactory from 'xxhash-wasm';
 
 import { AZTEC_ENR_CLIENT_VERSION_KEY, AZTEC_ENR_KEY } from './types/index.js';

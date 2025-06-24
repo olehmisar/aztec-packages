@@ -1,6 +1,8 @@
 import { Fr } from '@aztec/foundation/fields';
 import { VerificationKeyAsFields, VerificationKeyData } from '@aztec/stdlib/vks';
 
+import { Buffer } from 'buffer';
+
 interface VkJson {
   keyAsBytes: string;
   keyAsFields: string[];

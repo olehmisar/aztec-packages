@@ -5,6 +5,8 @@ import { type IndexedMerkleTree, IndexedMerkleTreeCalculator } from '@aztec/foun
 import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { ProtocolContractLeafPreimage } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
+
 export async function buildProtocolContractTree(
   contracts: { address: AztecAddress; leaf: Fr }[],
 ): Promise<IndexedMerkleTree<ProtocolContractLeafPreimage, typeof PROTOCOL_CONTRACT_TREE_HEIGHT>> {

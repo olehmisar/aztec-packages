@@ -1,5 +1,7 @@
 import { Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
+
 import type { AbiType, FunctionAbi } from './abi.js';
 import { isAddressStruct, isBoundedVecStruct, isFunctionSelectorStruct, isWrappedFieldStruct } from './utils.js';
 

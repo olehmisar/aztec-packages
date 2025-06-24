@@ -1,5 +1,7 @@
 import type { Blob } from '@aztec/blob-lib';
 
+import { Buffer } from 'buffer';
+
 import type { BlobWithIndex } from '../types/blob_with_index.js';
 
 export interface BlobSinkClientInterface {

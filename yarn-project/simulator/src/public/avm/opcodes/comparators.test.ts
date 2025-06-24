@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import type { AvmContext } from '../avm_context.js';
 import { Field, Uint8, Uint16, Uint32 } from '../avm_memory_types.js';
 import { TagCheckError } from '../errors.js';

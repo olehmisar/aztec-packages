@@ -7,6 +7,8 @@ import type { AztecKVStore, AztecMap } from '@aztec/kv-store';
 import type { TreeInsertionStats } from '@aztec/stdlib/stats';
 import type { BatchInsertionResult, LeafUpdateWitnessData } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
+
 import type { IndexedTree, PreimageFactory } from '../interfaces/indexed_tree.js';
 import { IndexedTreeSnapshotBuilder } from '../snapshots/indexed_tree_snapshot.js';
 import type { IndexedTreeSnapshot } from '../snapshots/snapshot_builder.js';

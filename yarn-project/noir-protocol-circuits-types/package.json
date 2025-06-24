@@ -71,6 +71,7 @@
     "@aztec/noir-noirc_abi": "portal:../../noir/packages/noirc_abi",
     "@aztec/noir-types": "portal:../../noir/packages/types",
     "@aztec/stdlib": "workspace:^",
+    "buffer": "^6.0.3",
     "change-case": "^5.4.4",
     "tslib": "^2.4.0"
   },

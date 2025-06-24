@@ -1,5 +1,7 @@
 import { Fr } from '@aztec/foundation/fields';
 
+import { Buffer } from 'buffer';
+
 import { FunctionSelector } from '../abi/function_selector.js';
 import { computeContractClassId } from './contract_class_id.js';
 import type { ContractClass } from './interfaces/contract_class.js';

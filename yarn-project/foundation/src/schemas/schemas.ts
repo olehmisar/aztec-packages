@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { Buffer32 } from '../buffer/buffer32.js';

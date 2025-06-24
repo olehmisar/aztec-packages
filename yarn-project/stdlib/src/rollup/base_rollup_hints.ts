@@ -6,6 +6,8 @@ import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import { MembershipWitness } from '@aztec/foundation/trees';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { PublicDataHint } from '../avm/public_data_hint.js';
 import { ContractClassLogFields } from '../logs/index.js';
 import { AppendOnlyTreeSnapshot } from '../trees/index.js';

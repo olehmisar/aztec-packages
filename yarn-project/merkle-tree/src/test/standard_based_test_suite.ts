@@ -4,6 +4,8 @@ import type { Hasher } from '@aztec/foundation/trees';
 import type { AztecKVStore } from '@aztec/kv-store';
 import { openTmpStore } from '@aztec/kv-store/lmdb';
 
+import { Buffer } from 'buffer';
+
 import { INITIAL_LEAF, Pedersen } from '../index.js';
 import type { AppendOnlyTree } from '../interfaces/append_only_tree.js';
 import type { UpdateOnlyTree } from '../interfaces/update_only_tree.js';

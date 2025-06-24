@@ -3,6 +3,8 @@ import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { BlockConstantData } from './block_constant_data.js';
 import { BlockRootRollupData } from './block_root_rollup.js';
 

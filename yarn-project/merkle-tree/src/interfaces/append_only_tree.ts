@@ -1,5 +1,7 @@
 import type { Bufferable } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import type { TreeSnapshot, TreeSnapshotBuilder } from '../snapshots/snapshot_builder.js';
 import type { MerkleTree } from './merkle_tree.js';
 

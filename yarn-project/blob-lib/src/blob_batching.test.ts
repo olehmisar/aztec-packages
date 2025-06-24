@@ -4,6 +4,7 @@ import { poseidon2Hash, randomInt, sha256ToField } from '@aztec/foundation/crypt
 import { BLS12Fr, BLS12Point, Fr } from '@aztec/foundation/fields';
 import { fileURLToPath } from '@aztec/foundation/url';
 
+import { Buffer } from 'buffer';
 import cKzg from 'c-kzg';
 import { readFileSync } from 'fs';
 import { dirname, resolve } from 'path';

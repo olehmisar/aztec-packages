@@ -9,6 +9,8 @@ import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 import { MembershipWitness } from '@aztec/foundation/trees';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { PublicKeys } from '../keys/public_keys.js';
 import { SharedMutableValues } from '../shared_mutable/shared_mutable_values.js';
 import { ProtocolContractLeafPreimage, PublicDataTreeLeafPreimage } from '../trees/index.js';

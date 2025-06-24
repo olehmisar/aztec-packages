@@ -4,6 +4,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, bigintToUInt64BE, numToUInt32BE, serializeToBuffer } from '@aztec/foundation/serialize';
 import type { UInt32 } from '@aztec/stdlib/types';
 
+import { Buffer } from 'buffer';
+
 export type InboxMessage = {
   index: bigint;
   leaf: Fr;

@@ -14,6 +14,7 @@ import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { computeL2ToL1MessageHash, computeSecretHash } from '@aztec/stdlib/hash';
 import type { PXE } from '@aztec/stdlib/interfaces/client';
 
+import { Buffer } from 'buffer';
 import { type Hex, getContract, toFunctionSelector } from 'viem';
 
 import type { Wallet } from '../index.js';

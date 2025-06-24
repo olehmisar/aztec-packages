@@ -1,5 +1,6 @@
 import { toArray } from '@aztec/foundation/iterable';
 
+import { Buffer } from 'buffer';
 import { expect } from 'chai';
 import { type SinonStubbedInstance, stub } from 'sinon';
 

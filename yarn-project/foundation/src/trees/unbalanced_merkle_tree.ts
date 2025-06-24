@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { padArrayEnd } from '../collection/array.js';
 import { sha256Trunc } from '../crypto/sha256/index.js';
 

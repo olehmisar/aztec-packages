@@ -1,6 +1,8 @@
 import type { AztecAsyncKVStore, AztecAsyncSingleton } from '@aztec/kv-store';
 import { BlockHeader } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import type { DataProvider } from '../data_provider.js';
 
 export class SyncDataProvider implements DataProvider {

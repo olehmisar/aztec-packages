@@ -1,6 +1,8 @@
 import { schemas } from '@aztec/foundation/schemas';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { L2BlockHash } from '../block/block_hash.js';
 import { type InBlock, inBlockSchemaFor, randomInBlock } from '../block/in_block.js';
 import { TxEffect } from './tx_effect.js';

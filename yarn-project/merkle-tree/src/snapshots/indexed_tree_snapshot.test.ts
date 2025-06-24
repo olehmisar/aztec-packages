@@ -4,6 +4,8 @@ import type { AztecKVStore } from '@aztec/kv-store';
 import { openTmpStore } from '@aztec/kv-store/lmdb';
 import { NullifierLeaf, NullifierLeafPreimage } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
+
 import { Pedersen, newTree } from '../index.js';
 import { StandardIndexedTreeWithAppend } from '../standard_indexed_tree/test/standard_indexed_tree_with_append.js';
 import { IndexedTreeSnapshotBuilder } from './indexed_tree_snapshot.js';

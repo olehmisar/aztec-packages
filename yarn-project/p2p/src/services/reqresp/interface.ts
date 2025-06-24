@@ -3,6 +3,7 @@ import { L2Block } from '@aztec/stdlib/block';
 import { Tx, TxHash } from '@aztec/stdlib/tx';
 
 import type { PeerId } from '@libp2p/interface';
+import { Buffer } from 'buffer';
 
 import { StatusMessage } from './protocols/status.js';
 import type { ReqRespStatus } from './status.js';

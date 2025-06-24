@@ -2,6 +2,8 @@ import type { Fr } from '@aztec/foundation/fields';
 import { createLogger } from '@aztec/foundation/log';
 import { type IndexedTreeLeafPreimage, SiblingPath } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import type { MerkleTreeId, TreeHeights } from '../trees/merkle_tree_id.js';
 import type { NullifierLeaf } from '../trees/nullifier_leaf.js';
 import type { PublicDataTreeLeaf } from '../trees/public_data_leaf.js';

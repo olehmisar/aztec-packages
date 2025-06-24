@@ -8,6 +8,7 @@ import type { LogFn } from '@aztec/foundation/log';
 import type { PXE } from '@aztec/stdlib/interfaces/client';
 import { PublicKeys } from '@aztec/stdlib/keys';
 
+import { Buffer } from 'buffer';
 import { type Command, CommanderError, InvalidArgumentError, Option } from 'commander';
 import { lookup } from 'dns/promises';
 import { rename, writeFile } from 'fs/promises';

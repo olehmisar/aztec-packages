@@ -1,5 +1,7 @@
 import { keccakf1600, sha256Compression } from '@aztec/foundation/crypto';
 
+import { Buffer } from 'buffer';
+
 import type { AvmContext } from '../avm_context.js';
 import { Field, TaggedMemory, Uint32, Uint64 } from '../avm_memory_types.js';
 import { MemorySliceOutOfRangeError } from '../errors.js';

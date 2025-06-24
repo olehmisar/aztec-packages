@@ -7,6 +7,7 @@ import { Discv5, type Discv5EventEmitter, type IDiscv5CreateOptions } from '@cha
 import { ENR, SignableENR } from '@chainsafe/enr';
 import type { PeerId } from '@libp2p/interface';
 import { type Multiaddr, multiaddr } from '@multiformats/multiaddr';
+import { Buffer } from 'buffer';
 import EventEmitter from 'events';
 
 import type { P2PConfig } from '../../config.js';

@@ -1,6 +1,7 @@
 import { type Logger, createLogger } from '@aztec/foundation/log';
 
 import { File, Storage, type UploadOptions } from '@google-cloud/storage';
+import { Buffer } from 'buffer';
 import { join } from 'path';
 
 import type { FileStore, FileStoreSaveOptions } from './interface.js';

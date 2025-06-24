@@ -1,6 +1,7 @@
 /* cSpell:disable */
 import { Field } from '@noble/curves/abstract/modular';
 import { weierstrassPoints } from '@noble/curves/abstract/weierstrass';
+import { Buffer } from 'buffer';
 
 import { toBigIntBE, toBufferBE } from '../../bigint-buffer/index.js';
 

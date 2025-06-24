@@ -1,6 +1,7 @@
 import type { Fr } from '@aztec/foundation/fields';
 import { type ZodFor, schemas } from '@aztec/foundation/schemas';
 
+import { Buffer } from 'buffer';
 import { z } from 'zod';
 
 import { FunctionSelector } from '../../abi/index.js';

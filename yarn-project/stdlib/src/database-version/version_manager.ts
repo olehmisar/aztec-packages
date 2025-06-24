@@ -2,6 +2,7 @@ import { EthAddress } from '@aztec/foundation/eth-address';
 import { jsonParseWithSchema, jsonStringify } from '@aztec/foundation/json-rpc';
 import { type Logger, createLogger } from '@aztec/foundation/log';
 
+import { Buffer } from 'buffer';
 import fs from 'fs/promises';
 import { inspect } from 'node:util';
 import { join } from 'path';

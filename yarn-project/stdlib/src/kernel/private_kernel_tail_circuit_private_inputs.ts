@@ -1,5 +1,7 @@
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { PaddedSideEffectAmounts } from './padded_side_effects.js';
 import { PrivateKernelData } from './private_kernel_data.js';
 import { countAccumulatedItems } from './utils/order_and_comparison.js';

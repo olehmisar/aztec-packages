@@ -3,6 +3,8 @@ import { jsonStringify } from '@aztec/foundation/json-rpc';
 import { isoDate } from '@aztec/foundation/string';
 import type { FileStore } from '@aztec/stdlib/file-store';
 
+import { Buffer } from 'buffer';
+
 import { getBasePath, getSnapshotIndex, getSnapshotIndexPath } from './download.js';
 import type { SnapshotDataKeys, SnapshotMetadata, SnapshotsIndex, UploadSnapshotMetadata } from './types.js';
 

@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 /*
  * A Buffer-like class that automatically advances the position.
  */

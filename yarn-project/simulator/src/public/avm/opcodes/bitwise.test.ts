@@ -1,5 +1,7 @@
 import { AVM_AND_BASE_L2_GAS, AVM_BITWISE_DYN_L2_GAS, AVM_OR_BASE_L2_GAS, AVM_XOR_BASE_L2_GAS } from '@aztec/constants';
 
+import { Buffer } from 'buffer';
+
 import type { AvmContext } from '../avm_context.js';
 import { getBitwiseDynamicGasMultiplier } from '../avm_gas.js';
 import { TypeTag, Uint8, Uint16, Uint32 } from '../avm_memory_types.js';

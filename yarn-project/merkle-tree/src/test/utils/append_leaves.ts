@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import type { AppendOnlyTree } from '../../interfaces/append_only_tree.js';
 import type { UpdateOnlyTree } from '../../interfaces/update_only_tree.js';
 

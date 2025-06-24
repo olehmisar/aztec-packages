@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { toBufferBE } from '../bigint-buffer/index.js';
 import { Fr } from '../fields/fields.js';
 import type { Tuple } from './types.js';

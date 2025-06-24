@@ -6,6 +6,8 @@ import type { EventSelector } from '@aztec/stdlib/abi';
 import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import type { TxHash } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import type { DataProvider } from '../data_provider.js';
 
 interface PrivateEventEntry {

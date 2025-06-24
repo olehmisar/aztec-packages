@@ -2,6 +2,7 @@ import { EthAddress } from '@aztec/foundation/eth-address';
 import type { LogFn, Logger } from '@aztec/foundation/log';
 import { withoutHexPrefix } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
 import { type Command, Option } from 'commander';
 
 import {

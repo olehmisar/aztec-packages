@@ -1,6 +1,8 @@
 import type { Bufferable } from '@aztec/foundation/serialize';
 import type { SiblingPath } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 /**
  * Defines the interface for a source of sibling paths.
  */

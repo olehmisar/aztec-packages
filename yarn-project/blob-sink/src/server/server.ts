@@ -5,6 +5,7 @@ import { bufferToHex, pluralize } from '@aztec/foundation/string';
 import type { AztecAsyncKVStore } from '@aztec/kv-store';
 import { type TelemetryClient, getTelemetryClient } from '@aztec/telemetry-client';
 
+import { Buffer } from 'buffer';
 import express, { type Express, type Request, type Response, json } from 'express';
 import type { Server } from 'http';
 import type { AddressInfo } from 'net';

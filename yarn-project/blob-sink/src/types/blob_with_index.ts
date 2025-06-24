@@ -1,6 +1,8 @@
 import { Blob, type BlobJson } from '@aztec/blob-lib';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 /** Serialized an array of blobs with their indexes to be stored at a given block id */
 export class BlobsWithIndexes {
   constructor(public blobs: BlobWithIndex[]) {}

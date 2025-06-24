@@ -1,6 +1,7 @@
 import { Fr } from '@aztec/foundation/fields';
 import { MessageHeader, TypedMessage } from '@aztec/foundation/message';
 
+import { Buffer } from 'buffer';
 import { Encoder, addExtension } from 'msgpackr';
 import { isAnyArrayBuffer } from 'util/types';
 

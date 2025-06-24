@@ -4,6 +4,7 @@ import { type ZodFor, hexSchemaFor } from '@aztec/foundation/schemas';
 import { type BufferReader, FieldReader, TypeRegistry } from '@aztec/foundation/serialize';
 import { hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 /** Branding to ensure fields are not interchangeable types. */

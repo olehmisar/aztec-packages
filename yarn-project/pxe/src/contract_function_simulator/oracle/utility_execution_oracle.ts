@@ -12,6 +12,8 @@ import { type MerkleTreeId, type NullifierMembershipWitness, PublicDataWitness }
 import type { BlockHeader, Capsule } from '@aztec/stdlib/tx';
 import type { UInt64 } from '@aztec/stdlib/types';
 
+import { Buffer } from 'buffer';
+
 import type { ExecutionDataProvider } from '../execution_data_provider.js';
 import { pickNotes } from '../pick_notes.js';
 import { type NoteData, TypedOracle } from './typed_oracle.js';

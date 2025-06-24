@@ -1,6 +1,8 @@
 import type { Fr } from '@aztec/foundation/fields';
 import type { Timer } from '@aztec/foundation/timer';
 
+import { Buffer } from 'buffer';
+
 import type { L2Block } from '../block/l2_block.js';
 import type { Gas } from '../gas/gas.js';
 import type { MerkleTreeWriteOperations } from '../trees/index.js';

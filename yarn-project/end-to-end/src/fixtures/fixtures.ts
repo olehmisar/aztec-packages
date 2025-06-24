@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 export const METRICS_PORT = 4318;
 
 export const shouldCollectMetrics = () => {

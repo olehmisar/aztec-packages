@@ -5,6 +5,8 @@ import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 import type { GasSettings } from '@aztec/stdlib/gas';
 import type { TxExecutionRequest } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import type { ExecutionPayload } from './payload.js';
 
 /**

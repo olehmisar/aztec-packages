@@ -4,6 +4,7 @@ import { RollupContract } from '@aztec/ethereum';
 import { timesAsync } from '@aztec/foundation/collection';
 
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';

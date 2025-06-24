@@ -1,5 +1,7 @@
 import { BarretenbergSync, RawBuffer } from '@aztec/bb.js';
 
+import { Buffer } from 'buffer';
+
 import { Fr } from '../../fields/fields.js';
 
 export async function vkAsFieldsMegaHonk(input: Buffer): Promise<Fr[]> {

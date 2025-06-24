@@ -2,6 +2,8 @@ import { SHA256Trunc, sha256Trunc } from '@aztec/foundation/crypto';
 import { Fr } from '@aztec/foundation/fields';
 import { type Hasher, MerkleTree, MerkleTreeCalculator, SiblingPath } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import { UnbalancedMerkleTreeCalculator } from './unbalanced_merkle_tree_calculator.js';
 
 // Follows sol implementation and tests in UnbalancedMerkle.t.sol

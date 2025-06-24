@@ -1,6 +1,8 @@
 import type { IndexedTreeLeafPreimage } from '@aztec/foundation/trees';
 import type { AztecKVStore, AztecMap } from '@aztec/kv-store';
 
+import { Buffer } from 'buffer';
+
 import type { IndexedTree, PreimageFactory } from '../interfaces/indexed_tree.js';
 import type { TreeBase } from '../tree_base.js';
 import { BaseFullTreeSnapshot, BaseFullTreeSnapshotBuilder } from './base_full_snapshot.js';

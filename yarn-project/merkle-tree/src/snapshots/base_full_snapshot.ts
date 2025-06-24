@@ -2,6 +2,8 @@ import { type Bufferable, type FromBuffer, serializeToBuffer } from '@aztec/foun
 import { SiblingPath } from '@aztec/foundation/trees';
 import type { AztecKVStore, AztecMap } from '@aztec/kv-store';
 
+import { Buffer } from 'buffer';
+
 import type { TreeBase } from '../tree_base.js';
 import type { TreeSnapshot, TreeSnapshotBuilder } from './snapshot_builder.js';
 

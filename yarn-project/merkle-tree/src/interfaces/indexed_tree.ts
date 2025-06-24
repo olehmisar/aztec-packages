@@ -1,6 +1,8 @@
 import type { IndexedTreeLeaf, IndexedTreeLeafPreimage } from '@aztec/foundation/trees';
 import type { BatchInsertionResult } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
+
 import type { IndexedTreeSnapshot, TreeSnapshot, TreeSnapshotBuilder } from '../snapshots/snapshot_builder.js';
 import type { AppendOnlyTree } from './append_only_tree.js';
 import type { MerkleTree } from './merkle_tree.js';

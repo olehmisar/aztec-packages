@@ -1,5 +1,7 @@
 import { pedersenHash } from '@aztec/foundation/crypto';
 
+import { Buffer } from 'buffer';
+
 import type { AsyncHasher } from './hasher.js';
 import { MerkleTree } from './merkle_tree.js';
 

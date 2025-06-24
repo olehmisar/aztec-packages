@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 import { keccak256String } from '../crypto/keccak/index.js';

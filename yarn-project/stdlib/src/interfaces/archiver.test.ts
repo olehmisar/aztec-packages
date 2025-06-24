@@ -3,6 +3,7 @@ import { EthAddress } from '@aztec/foundation/eth-address';
 import { Fr } from '@aztec/foundation/fields';
 import { type JsonRpcTestContext, createJsonRpcTestSetup } from '@aztec/foundation/json-rpc/test';
 
+import { Buffer } from 'buffer';
 import omit from 'lodash.omit';
 
 import type { ContractArtifact } from '../abi/abi.js';

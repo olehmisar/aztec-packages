@@ -1,6 +1,8 @@
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer, serializeToFields } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { CallContext } from '../tx/call_context.js';
 
 export class PrivateCallRequest {

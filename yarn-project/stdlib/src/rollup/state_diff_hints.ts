@@ -11,6 +11,8 @@ import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/s
 import { MembershipWitness } from '@aztec/foundation/trees';
 import type { FieldsOf } from '@aztec/foundation/types';
 
+import { Buffer } from 'buffer';
+
 import { NullifierLeafPreimage, PublicDataTreeLeafPreimage } from '../trees/index.js';
 
 /**

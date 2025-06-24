@@ -2,6 +2,8 @@ import { KEY_VALIDATION_REQUEST_LENGTH } from '@aztec/constants';
 import { Fr, GrumpkinScalar, Point } from '@aztec/foundation/fields';
 import { BufferReader, FieldReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 /**
  * Request for validating keys used in the app.
  */

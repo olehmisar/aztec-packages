@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { makeTuple } from '../array/array.js';
 import { pedersenHash } from '../crypto/index.js';
 import { Fr } from '../fields/index.js';

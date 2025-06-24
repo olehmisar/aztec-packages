@@ -76,6 +76,7 @@
     "@aztec/stdlib": "workspace:^",
     "@aztec/telemetry-client": "workspace:^",
     "@aztec/world-state": "workspace:^",
+    "buffer": "^6.0.3",
     "source-map-support": "^0.5.21",
     "tslib": "^2.4.0",
     "viem": "2.23.7"

@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { toBufferBE } from '../bigint-buffer/index.js';
 import { Coordinate } from './coordinate.js';
 import { Fr } from './fields.js';

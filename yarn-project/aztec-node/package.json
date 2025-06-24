@@ -87,6 +87,7 @@
     "@aztec/telemetry-client": "workspace:^",
     "@aztec/validator-client": "workspace:^",
     "@aztec/world-state": "workspace:^",
+    "buffer": "^6.0.3",
     "koa": "^2.16.1",
     "koa-router": "^12.0.0",
     "tslib": "^2.4.0",

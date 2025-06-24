@@ -9,6 +9,8 @@ import {
 } from '@aztec/stdlib/contract';
 import type { ContractClassLog } from '@aztec/stdlib/logs';
 
+import { Buffer } from 'buffer';
+
 import { ProtocolContractAddress } from '../protocol_contract_data.js';
 
 /** Event emitted from the ContractClassRegisterer. */

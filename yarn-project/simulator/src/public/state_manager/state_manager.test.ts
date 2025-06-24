@@ -5,6 +5,7 @@ import { SerializableContractInstance, computePublicBytecodeCommitment } from '@
 import { computeNoteHashNonce, computeUniqueNoteHash, siloNoteHash, siloNullifier } from '@aztec/stdlib/hash';
 import { makeContractClassPublic } from '@aztec/stdlib/testing';
 
+import { Buffer } from 'buffer';
 import { mock } from 'jest-mock-extended';
 
 import { initPersistableStateManager } from '../avm/fixtures/initializers.js';

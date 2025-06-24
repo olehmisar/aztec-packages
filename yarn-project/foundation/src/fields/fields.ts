@@ -1,5 +1,6 @@
 import { BarretenbergSync } from '@aztec/bb.js';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 import { toBigIntBE, toBufferBE } from '../bigint-buffer/index.js';

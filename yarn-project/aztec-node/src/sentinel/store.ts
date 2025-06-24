@@ -7,6 +7,8 @@ import type {
   ValidatorsEpochPerformance,
 } from '@aztec/stdlib/validators';
 
+import { Buffer } from 'buffer';
+
 export class SentinelStore {
   public static readonly SCHEMA_VERSION = 2;
 

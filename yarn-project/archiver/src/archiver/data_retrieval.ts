@@ -19,6 +19,7 @@ import { Proof } from '@aztec/stdlib/proofs';
 import { AppendOnlyTreeSnapshot } from '@aztec/stdlib/trees';
 import { BlockHeader, GlobalVariables, ProposedBlockHeader, StateReference } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
 import {
   type GetContractEventsReturnType,
   type GetContractReturnType,

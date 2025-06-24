@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { type BlobWithIndex, BlobsWithIndexes } from '../types/index.js';
 import type { BlobStore } from './interface.js';
 

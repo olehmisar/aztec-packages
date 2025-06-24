@@ -4,6 +4,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { hexSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, TypeRegistry } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { Selector } from './selector.js';
 
 /* eslint-disable @typescript-eslint/no-unsafe-declaration-merging */

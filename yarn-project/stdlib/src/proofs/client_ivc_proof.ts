@@ -2,6 +2,8 @@ import { randomBytes } from '@aztec/foundation/crypto';
 import { bufferSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 const CLIENT_IVC_PROOF_LENGTH = 172052;
 
 /**

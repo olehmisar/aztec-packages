@@ -4,6 +4,7 @@ import { type LogFn, createConsoleLogger, createLogger } from '@aztec/foundation
 import { openStoreAt } from '@aztec/kv-store/lmdb-v2';
 import type { PXEServiceConfig } from '@aztec/pxe/config';
 
+import { Buffer } from 'buffer';
 import { Argument, Command, Option } from 'commander';
 import { mkdirSync, readFileSync } from 'fs';
 import { homedir } from 'os';

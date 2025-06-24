@@ -67,6 +67,7 @@ import type { CircuitProvingStats, CircuitWitnessGenerationStats } from '@aztec/
 import type { VerificationKeyData } from '@aztec/stdlib/vks';
 import { Attributes, type TelemetryClient, getTelemetryClient, trackSpan } from '@aztec/telemetry-client';
 
+import { Buffer } from 'buffer';
 import crypto from 'crypto';
 import { promises as fs } from 'fs';
 import * as path from 'path';

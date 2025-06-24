@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { VerificationKey, VerificationKeyAsFields, VerificationKeyData } from './verification_key.js';
 
 describe('structs/verification_key_as_fields', () => {

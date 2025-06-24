@@ -22,6 +22,8 @@ import {
   getContractClassFromArtifact,
 } from '@aztec/stdlib/contract';
 
+import { Buffer } from 'buffer';
+
 import type { DataProvider } from '../data_provider.js';
 import { PrivateFunctionsTree } from './private_functions_tree.js';
 

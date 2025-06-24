@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import fs from 'fs/promises';
 import path from 'path';
 

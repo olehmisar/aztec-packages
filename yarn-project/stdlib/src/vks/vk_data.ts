@@ -4,6 +4,8 @@ import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 import type { UInt32 } from '../types/shared.js';
 import { VerificationKeyData } from './verification_key.js';
 

@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import { bufferAsFields, bufferFromFields } from './buffer.js';
 
 describe('buffer', () => {

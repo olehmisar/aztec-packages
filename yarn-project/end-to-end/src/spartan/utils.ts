@@ -5,6 +5,7 @@ import { makeBackoff, retry } from '@aztec/foundation/retry';
 import type { SequencerConfig } from '@aztec/sequencer-client';
 import { createAztecNodeAdminClient } from '@aztec/stdlib/interfaces/client';
 
+import { Buffer } from 'buffer';
 import { ChildProcess, exec, execSync, spawn } from 'child_process';
 import path from 'path';
 import { promisify } from 'util';

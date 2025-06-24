@@ -13,6 +13,7 @@ import { bufferSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, type Tuple, serializeToBuffer, serializeToFields } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 import { PrivateLog } from '../logs/private_log.js';

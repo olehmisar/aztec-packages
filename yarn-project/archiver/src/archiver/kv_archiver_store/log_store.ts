@@ -16,6 +16,8 @@ import {
   TxScopedL2Log,
 } from '@aztec/stdlib/logs';
 
+import { Buffer } from 'buffer';
+
 import type { BlockStore } from './block_store.js';
 
 /**

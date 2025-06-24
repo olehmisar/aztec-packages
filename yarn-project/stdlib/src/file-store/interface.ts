@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 /** Simple read-only file store. */
 export interface ReadOnlyFileStore {
   /** Reads a file given a path, or an URI as returned by calling `save`. Returns file contents. */

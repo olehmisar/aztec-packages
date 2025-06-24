@@ -1,6 +1,7 @@
 import type { LogFn } from '@aztec/foundation/log';
 
 import { createSecp256k1PeerId } from '@libp2p/peer-id-factory';
+import { Buffer } from 'buffer';
 
 export async function generateP2PPrivateKey(log: LogFn) {
   const peerId = await createSecp256k1PeerId();

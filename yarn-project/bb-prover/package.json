@@ -80,6 +80,7 @@
     "@aztec/stdlib": "workspace:^",
     "@aztec/telemetry-client": "workspace:^",
     "@aztec/world-state": "workspace:^",
+    "buffer": "^6.0.3",
     "commander": "^12.1.0",
     "pako": "^2.1.0",
     "source-map-support": "^0.5.21",

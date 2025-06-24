@@ -2,6 +2,7 @@ import type { Fr } from '@aztec/foundation/fields';
 import { AztecAddress } from '@aztec/stdlib/aztec-address';
 import { SerializableContractInstance } from '@aztec/stdlib/contract';
 
+import { Buffer } from 'buffer';
 import { mock } from 'jest-mock-extended';
 
 import type { PublicPersistableStateManager } from '../../state_manager/state_manager.js';

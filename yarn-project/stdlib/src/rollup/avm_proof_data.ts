@@ -2,6 +2,8 @@ import { AVM_V2_PROOF_LENGTH_IN_FIELDS_PADDED } from '@aztec/constants';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { AvmCircuitPublicInputs } from '../avm/avm_circuit_public_inputs.js';
 import { RecursiveProof, makeEmptyRecursiveProof } from '../proofs/recursive_proof.js';
 import { VkData } from '../vks/vk_data.js';

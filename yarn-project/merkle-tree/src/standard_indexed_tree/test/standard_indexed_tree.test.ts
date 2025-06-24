@@ -12,6 +12,8 @@ import {
   PublicDataTreeLeafPreimage,
 } from '@aztec/stdlib/trees';
 
+import { Buffer } from 'buffer';
+
 import { INITIAL_LEAF, type MerkleTree, Pedersen, loadTree, newTree } from '../../index.js';
 import { treeTestSuite } from '../../test/test_suite.js';
 import { StandardIndexedTreeWithAppend } from './standard_indexed_tree_with_append.js';

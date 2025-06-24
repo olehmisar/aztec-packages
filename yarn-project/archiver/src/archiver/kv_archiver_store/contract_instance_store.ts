@@ -8,6 +8,8 @@ import {
   SerializableContractInstanceUpdate,
 } from '@aztec/stdlib/contract';
 
+import { Buffer } from 'buffer';
+
 type ContractInstanceUpdateKey = [string, number] | [string, number, number];
 
 /**

@@ -1,6 +1,8 @@
 import type { Bufferable, FromBuffer } from '@aztec/foundation/serialize';
 import type { AztecKVStore } from '@aztec/kv-store';
 
+import { Buffer } from 'buffer';
+
 import type { TreeBase } from '../tree_base.js';
 import { BaseFullTreeSnapshot, BaseFullTreeSnapshotBuilder } from './base_full_snapshot.js';
 import type { TreeSnapshot, TreeSnapshotBuilder } from './snapshot_builder.js';

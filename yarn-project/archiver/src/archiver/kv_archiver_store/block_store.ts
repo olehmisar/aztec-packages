@@ -18,6 +18,8 @@ import {
   serializeIndexedTxEffect,
 } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import { BlockNumberNotSequentialError, InitialBlockNumberNotSequentialError } from '../errors.js';
 import type { L1PublishedData, PublishedL2Block } from '../structs/published.js';
 

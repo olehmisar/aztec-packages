@@ -2,6 +2,8 @@ import type { EthAddress } from '@aztec/foundation/eth-address';
 import { Fr } from '@aztec/foundation/fields';
 import type { AztecAddress } from '@aztec/stdlib/aztec-address';
 
+import { Buffer } from 'buffer';
+
 import type { ACVMField } from './acvm_types.js';
 
 /**

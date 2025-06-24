@@ -4,6 +4,8 @@ import { type Bufferable, type FromBuffer, serializeToBuffer } from '@aztec/foun
 import { type Hasher, SiblingPath } from '@aztec/foundation/trees';
 import type { AztecKVStore, AztecMap, AztecSingleton } from '@aztec/kv-store';
 
+import { Buffer } from 'buffer';
+
 import { HasherWithStats } from './hasher_with_stats.js';
 import type { MerkleTree } from './interfaces/merkle_tree.js';
 

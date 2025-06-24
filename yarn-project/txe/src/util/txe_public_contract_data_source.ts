@@ -10,6 +10,8 @@ import {
   getContractClassPrivateFunctionFromArtifact,
 } from '@aztec/stdlib/contract';
 
+import { Buffer } from 'buffer';
+
 import type { TXE } from '../oracle/txe_oracle.js';
 
 export class TXEPublicContractDataSource implements ContractDataSource {

@@ -2,6 +2,8 @@ import { BLS12Point, Fr } from '@aztec/foundation/fields';
 import { updateInlineTestData } from '@aztec/foundation/testing/files';
 import { TxEffect, TxHash } from '@aztec/stdlib/tx';
 
+import { Buffer } from 'buffer';
+
 import { buildBlobHints, getEmptyBlockBlobsHash } from './block-building-helpers.js';
 
 function fieldArrToStr(arr: Fr[]) {

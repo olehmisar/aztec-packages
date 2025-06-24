@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 import { bls12_381 } from '@noble/curves/bls12-381';
+import { Buffer } from 'buffer';
 import { inspect } from 'util';
 
 import { toBigIntBE, toBufferBE } from '../bigint-buffer/index.js';

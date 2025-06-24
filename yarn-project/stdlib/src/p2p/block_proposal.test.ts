@@ -3,6 +3,8 @@ import { Secp256k1Signer } from '@aztec/foundation/crypto';
 import { Signature } from '@aztec/foundation/eth-signature';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { makeBlockProposal } from '../tests/mocks.js';
 import { Tx } from '../tx/tx.js';
 import { BlockProposal } from './block_proposal.js';

@@ -4,6 +4,8 @@ import { bufferSchemaFor } from '@aztec/foundation/schemas';
 import { BufferReader, type Tuple, serializeToBuffer } from '@aztec/foundation/serialize';
 import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
+import { Buffer } from 'buffer';
+
 export class BaseParityInputs {
   constructor(
     /** Aggregated proof of all the parity circuit iterations. */

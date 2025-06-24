@@ -40,6 +40,8 @@ import type {
   TubeInputs,
 } from '@aztec/stdlib/rollup';
 
+import { Buffer } from 'buffer';
+
 import { InlineProofStore, type ProofStore } from './proof_store/index.js';
 
 // Perform a snapshot sync every 30 seconds

@@ -4,6 +4,7 @@ import { createConsoleLogger } from '@aztec/foundation/log';
 import { MerkleTreeCalculator } from '@aztec/foundation/trees';
 import { fileURLToPath } from '@aztec/foundation/url';
 
+import { Buffer } from 'buffer';
 import { promises as fs } from 'fs';
 
 import type { ProtocolArtifact } from '../artifacts/types.js';

@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer';
+
 import type { AvmContext } from '../avm_context.js';
 import { Uint16 } from '../avm_memory_types.js';
 import { InstructionExecutionError } from '../errors.js';

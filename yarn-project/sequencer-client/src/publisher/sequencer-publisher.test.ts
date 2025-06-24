@@ -21,6 +21,7 @@ import { L2Block, Signature } from '@aztec/stdlib/block';
 import type { ProposedBlockHeader } from '@aztec/stdlib/tx';
 
 import { jest } from '@jest/globals';
+import { Buffer } from 'buffer';
 import express, { json } from 'express';
 import type { Server } from 'http';
 import { type MockProxy, mock } from 'jest-mock-extended';

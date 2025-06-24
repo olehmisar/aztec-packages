@@ -2,6 +2,7 @@ import { EthAddress } from '@aztec/foundation/eth-address';
 import { Fq, Fr, Point } from '@aztec/foundation/fields';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 import { Encoder, addExtension } from 'msgpackr';
 
 import { AztecAddress } from '../aztec-address/index.js';

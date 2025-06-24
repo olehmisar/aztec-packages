@@ -131,6 +131,8 @@ import {
 import type { UInt64 } from '@aztec/stdlib/types';
 import { ForkCheckpoint, NativeWorldStateService } from '@aztec/world-state/native';
 
+import { Buffer } from 'buffer';
+
 import { TXEStateMachine } from '../state_machine/index.js';
 import { AZTEC_SLOT_DURATION, GENESIS_TIMESTAMP } from '../txe_constants.js';
 import { TXEAccountDataProvider } from '../util/txe_account_data_provider.js';

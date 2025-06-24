@@ -9,6 +9,8 @@ import {
   serializeToFields,
 } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 /**
  * A Poseidon2 sponge used to accumulate data that will be added to a blob.
  * See noir-projects/noir-protocol-circuits/crates/types/src/abis/sponge_blob.nr.

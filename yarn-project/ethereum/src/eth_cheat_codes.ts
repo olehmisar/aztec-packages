@@ -5,6 +5,7 @@ import { jsonStringify } from '@aztec/foundation/json-rpc';
 import { createLogger } from '@aztec/foundation/log';
 import type { TestDateProvider } from '@aztec/foundation/timer';
 
+import { Buffer } from 'buffer';
 import { type Hex, createPublicClient, fallback, http } from 'viem';
 
 import type { ViemPublicClient } from './types.js';

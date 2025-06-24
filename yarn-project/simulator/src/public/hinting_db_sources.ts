@@ -41,6 +41,7 @@ import {
 import { TreeSnapshots } from '@aztec/stdlib/tx';
 
 import { strict as assert } from 'assert';
+import { Buffer } from 'buffer';
 
 import type { PublicContractsDBInterface } from './db_interfaces.js';
 

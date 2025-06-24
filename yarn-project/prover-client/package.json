@@ -83,6 +83,7 @@
     "@aztec/world-state": "workspace:^",
     "@google-cloud/storage": "^7.15.0",
     "@iarna/toml": "^2.2.5",
+    "buffer": "^6.0.3",
     "commander": "^12.1.0",
     "lodash.chunk": "^4.2.0",
     "source-map-support": "^0.5.21",

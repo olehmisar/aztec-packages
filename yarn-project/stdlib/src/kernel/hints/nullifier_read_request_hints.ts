@@ -3,6 +3,8 @@ import { makeTuple } from '@aztec/foundation/array';
 import type { BufferReader } from '@aztec/foundation/serialize';
 import type { MembershipWitness, TreeLeafPreimage } from '@aztec/foundation/trees';
 
+import { Buffer } from 'buffer';
+
 import { NullifierLeafPreimage } from '../../trees/index.js';
 import {
   PendingReadHint,

@@ -5,6 +5,8 @@ import { Signature } from '@aztec/foundation/eth-signature';
 import { Fr } from '@aztec/foundation/fields';
 import { BufferReader, serializeToBuffer } from '@aztec/foundation/serialize';
 
+import { Buffer } from 'buffer';
+
 import { Tx } from '../tx/tx.js';
 import type { UInt32 } from '../types/index.js';
 import { ConsensusPayload } from './consensus_payload.js';
