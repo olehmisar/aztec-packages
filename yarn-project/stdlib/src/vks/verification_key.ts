@@ -11,6 +11,7 @@ import { bufferToHex, hexToBuffer } from '@aztec/foundation/string';
 
 import { Buffer } from 'buffer';
 
+import { hashVK } from '../hash/index.js';
 import { CircuitType } from '../types/shared.js';
 
 /**
@@ -94,6 +95,11 @@ export class VerificationKeyAsFields {
     public key: Fr[],
     public hash: Fr,
   ) {}
+
+  static async fromKey(key: Fr[]) {
+    const hash = await hashVK(key);
+    return new VerificationKeyAsFields(key, hash);
+  }
 
   public get numPublicInputs() {
     return Number(this.key[CIRCUIT_PUBLIC_INPUTS_INDEX]);
